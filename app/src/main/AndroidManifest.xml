@@ -14,7 +14,8 @@
         </activity>
         <activity android:name=".presentation.ui.activity.GamePlayActivity">
         </activity>
-        <activity android:name=".presentation.ui.activity.MainMenuActivity">
+        <activity android:name=".presentation.ui.activity.MainMenuActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

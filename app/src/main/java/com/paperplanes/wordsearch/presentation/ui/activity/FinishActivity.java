@@ -1,24 +1,21 @@
 package com.paperplanes.wordsearch.presentation.ui.activity;
 
 import android.content.Intent;
-import android.support.v4.app.NavUtils;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import androidx.core.app.NavUtils;
 
 import com.paperplanes.wordsearch.R;
 import com.paperplanes.wordsearch.WordSearchApp;
 import com.paperplanes.wordsearch.commons.DurationFormatter;
-import com.paperplanes.wordsearch.config.Preferences;
+import com.paperplanes.wordsearch.databinding.ActivityFinishBinding;
 import com.paperplanes.wordsearch.domain.model.GameRoundStat;
 import com.paperplanes.wordsearch.presentation.presenters.GameOverPresenter;
 import com.paperplanes.wordsearch.presentation.views.GameOverView;
 
 import javax.inject.Inject;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 public class FinishActivity extends FullscreenActivity implements GameOverView {
     public static final String EXTRA_GAME_ROUND_ID =
@@ -27,7 +24,6 @@ public class FinishActivity extends FullscreenActivity implements GameOverView {
     @Inject
     GameOverPresenter mPresenter;
 
-    @BindView(R.id.game_stat_text)
     TextView mGameStatText;
 
     private int mGameId;
@@ -35,9 +31,12 @@ public class FinishActivity extends FullscreenActivity implements GameOverView {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_finish);
 
-        ButterKnife.bind(this);
+        ActivityFinishBinding binding = ActivityFinishBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+        mGameStatText = binding.gameStatText;
+
         ((WordSearchApp) getApplication()).getAppComponent().inject(this);
 
         mPresenter.setView(this);
@@ -46,9 +45,11 @@ public class FinishActivity extends FullscreenActivity implements GameOverView {
             mGameId = getIntent().getExtras().getInt(EXTRA_GAME_ROUND_ID);
             mPresenter.loadData(mGameId);
         }
+        binding.mainMenuBtn.setOnClickListener((view)->{
+            onMainMenuClick();
+        });
     }
 
-    @OnClick(R.id.main_menu_btn)
     public void onMainMenuClick() {
         goToMainMenu();
     }

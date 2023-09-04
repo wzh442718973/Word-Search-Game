@@ -19,6 +19,7 @@ import com.paperplanes.wordsearch.commons.DurationFormatter;
 import com.paperplanes.wordsearch.commons.Util;
 import com.paperplanes.wordsearch.config.Preferences;
 import com.paperplanes.wordsearch.config.SoundManager;
+import com.paperplanes.wordsearch.databinding.ActivityGamePlayBinding;
 import com.paperplanes.wordsearch.presentation.custom.LetterBoard;
 import com.paperplanes.wordsearch.presentation.custom.StreakView;
 import com.paperplanes.wordsearch.presentation.custom.layout.FlowLayout;
@@ -31,9 +32,6 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import butterknife.BindColor;
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 public class GamePlayActivity extends FullscreenActivity implements GamePlayView {
     public static final String EXTRA_GAME_ROUND_ID =
@@ -48,32 +46,21 @@ public class GamePlayActivity extends FullscreenActivity implements GamePlayView
     @Inject
     SoundManager mSoundManager;
 
-    @BindView(R.id.text_duration)
     TextView mTextDuration;
-    @BindView(R.id.letter_board)
     LetterBoard mLetterBoard;
-    @BindView(R.id.flow_layout)
     FlowLayout mFlowLayout;
 
-    @BindView(R.id.text_sel_layout)
     View mTextSelLayout;
-    @BindView(R.id.text_selection)
     TextView mTextSelection;
 
-    @BindView(R.id.answered_text_count)
     TextView mAnsweredTextCount;
-    @BindView(R.id.words_count)
     TextView mWordsCount;
 
-    @BindView(R.id.finished_text)
     TextView mFinishedText;
 
-    @BindView(R.id.loading)
     View mLoading;
-    @BindView(R.id.content_layout)
     View mContentLayout;
 
-    @BindColor(R.color.gray)
     int mGrayColor;
 
     private int mGameId;
@@ -83,9 +70,27 @@ public class GamePlayActivity extends FullscreenActivity implements GamePlayView
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game_play);
 
-        ButterKnife.bind(this);
+        ActivityGamePlayBinding binding = ActivityGamePlayBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+        mTextDuration = binding.textDuration;
+        mLetterBoard = binding.letterBoard;
+        mFlowLayout = binding.flowLayout;
+
+        mTextSelLayout = binding.textSelLayout;
+        mTextSelection = binding.textSelection;
+
+        mAnsweredTextCount = binding.answeredTextCount;
+        mWordsCount = binding.wordsCount;
+
+        mFinishedText = binding.finishedText;
+
+        mLoading = binding.loading;
+        mContentLayout = binding.contentLayout;
+        mGrayColor = getColor(R.color.gray);
+
+
         ((WordSearchApp) getApplication()).getAppComponent().inject(this);
 
         mLetterBoard.getStreakView().setEnableOverrideStreakLineColor(mPref.grayscale());
@@ -159,7 +164,7 @@ public class GamePlayActivity extends FullscreenActivity implements GamePlayView
         int screenWidth = metrics.widthPixels;
 
         if (mPref.autoScaleGrid() || boardWidth > screenWidth) {
-            float scale = (float)screenWidth / (float)boardWidth;
+            float scale = (float) screenWidth / (float) boardWidth;
             mLetterBoard.scale(scale, scale);
         }
     }
@@ -191,8 +196,7 @@ public class GamePlayActivity extends FullscreenActivity implements GamePlayView
         if (mLetterAdapter == null) {
             mLetterAdapter = new ArrayLetterGridDataAdapter(grid);
             mLetterBoard.setDataAdapter(mLetterAdapter);
-        }
-        else {
+        } else {
             mLetterAdapter.setGrid(grid);
         }
     }
@@ -205,7 +209,7 @@ public class GamePlayActivity extends FullscreenActivity implements GamePlayView
     @Override
     public void showUsedWords(List<UsedWordViewModel> usedWords) {
         for (UsedWordViewModel uw : usedWords) {
-            mFlowLayout.addView( createUsedWordTextView(uw) );
+            mFlowLayout.addView(createUsedWordTextView(uw));
         }
     }
 
@@ -256,8 +260,7 @@ public class GamePlayActivity extends FullscreenActivity implements GamePlayView
             }
 
             mSoundManager.play(SoundManager.SOUND_CORRECT);
-        }
-        else {
+        } else {
             mLetterBoard.popStreakLine();
 
             mSoundManager.play(SoundManager.SOUND_WRONG);
@@ -278,8 +281,7 @@ public class GamePlayActivity extends FullscreenActivity implements GamePlayView
             tv.setPaintFlags(tv.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
 
             mLetterBoard.addStreakLine(uw.getStreakLine());
-        }
-        else {
+        } else {
             String str = uw.getString();
             if (uw.isMystery()) {
                 int revealCount = uw.getUsedWord().getRevealCount();
@@ -289,8 +291,7 @@ public class GamePlayActivity extends FullscreenActivity implements GamePlayView
                     if (revealCount > 0) {
                         str += uwString.charAt(i);
                         revealCount--;
-                    }
-                    else {
+                    } else {
                         str += " ?";
                     }
                 }

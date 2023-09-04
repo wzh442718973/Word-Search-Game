@@ -2,8 +2,8 @@ package com.paperplanes.wordsearch.presentation.ui.activity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.Window;
 import android.view.WindowManager;
 
@@ -29,6 +29,7 @@ public class FullscreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         ((WordSearchApp) getApplication()).getAppComponent().inject(this);
+//        mPreferences = new Preferences(this, getPreferences(0));
 
         if (mPreferences.enableFullscreen()) {
             requestWindowFeature(Window.FEATURE_NO_TITLE);

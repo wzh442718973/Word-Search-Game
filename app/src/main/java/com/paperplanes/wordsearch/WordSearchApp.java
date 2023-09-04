@@ -6,6 +6,8 @@ import com.paperplanes.wordsearch.di.component.AppComponent;
 import com.paperplanes.wordsearch.di.component.DaggerAppComponent;
 import com.paperplanes.wordsearch.di.modules.AppModule;
 
+import dagger.internal.DaggerCollections;
+
 /**
  * Created by abdularis on 18/07/17.
  */

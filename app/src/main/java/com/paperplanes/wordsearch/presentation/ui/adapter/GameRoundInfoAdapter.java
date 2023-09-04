@@ -1,21 +1,20 @@
 package com.paperplanes.wordsearch.presentation.ui.adapter;
 
 import android.content.Context;
-import android.support.annotation.LayoutRes;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+import androidx.annotation.LayoutRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
 import com.paperplanes.wordsearch.R;
 import com.paperplanes.wordsearch.commons.DurationFormatter;
 import com.paperplanes.wordsearch.domain.model.GameRound;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 /**
  * Created by abdularis on 20/07/17.
@@ -70,17 +69,16 @@ public class GameRoundInfoAdapter extends ArrayAdapter<GameRound.Info> {
     }
 
     class Holder {
-        @BindView(R.id.text_name)
         TextView textName;
-        @BindView(R.id.text_duration)
         TextView textDuration;
-        @BindView(R.id.delete_list_item)
         View viewDeleteItem;
 
         DeleteItemClick deleteItemClick;
 
         Holder(View view) {
-            ButterKnife.bind(this, view);
+            textName = view.findViewById(R.id.text_name);
+            textDuration = view.findViewById(R.id.text_duration);
+            viewDeleteItem = view.findViewById(R.id.delete_list_item);
         }
 
 

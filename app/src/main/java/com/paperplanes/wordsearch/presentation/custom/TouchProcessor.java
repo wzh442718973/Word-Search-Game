@@ -1,6 +1,6 @@
 package com.paperplanes.wordsearch.presentation.custom;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.MotionEvent;
 
 /**

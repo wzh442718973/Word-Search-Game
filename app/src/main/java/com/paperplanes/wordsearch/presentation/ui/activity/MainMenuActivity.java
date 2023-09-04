@@ -12,6 +12,7 @@ import android.widget.Spinner;
 
 import com.paperplanes.wordsearch.R;
 import com.paperplanes.wordsearch.WordSearchApp;
+import com.paperplanes.wordsearch.databinding.ActivityMainMenuBinding;
 import com.paperplanes.wordsearch.domain.model.GameRound;
 import com.paperplanes.wordsearch.presentation.presenters.MainMenuPresenter;
 import com.paperplanes.wordsearch.presentation.ui.adapter.GameRoundInfoAdapter;
@@ -21,29 +22,18 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import butterknife.BindArray;
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
-
 public class MainMenuActivity extends FullscreenActivity implements MainMenuView {
 
     @Inject
     MainMenuPresenter mPresenter;
 
-    @BindView(R.id.game_round_list)
     ListView mListView;
-    @BindView(R.id.game_template_spinner)
     Spinner mGameTempSpinner;
-    @BindView(R.id.new_game_loading_layout)
     View mNewGameProgress;
-    @BindView(R.id.new_game_content_layout)
     View mNewGameContent;
 
-    @BindView(R.id.layout_saved_game)
     View mLayoutSavedGame;
 
-    @BindArray(R.array.game_round_dimension_values)
     int[] mGameRoundDimVals;
 
     GameRoundInfoAdapter mInfoAdapter;
@@ -51,9 +41,21 @@ public class MainMenuActivity extends FullscreenActivity implements MainMenuView
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_menu);
 
-        ButterKnife.bind(this);
+        ActivityMainMenuBinding binding = ActivityMainMenuBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+
+        mListView = binding.gameRoundList;
+        mGameTempSpinner = binding.gameTemplateSpinner;
+        mNewGameProgress = binding.newGameLoadingLayout;
+        mNewGameContent = binding.newGameContentLayout;
+
+        mLayoutSavedGame = binding.layoutSavedGame;
+
+        mGameRoundDimVals = getResources().getIntArray(R.array.game_round_dimension_values);
+
+
         ((WordSearchApp) getApplication()).getAppComponent().inject(this);
 
         mInfoAdapter = new GameRoundInfoAdapter(this, R.layout.game_round_item);
@@ -73,6 +75,16 @@ public class MainMenuActivity extends FullscreenActivity implements MainMenuView
         });
 
         mPresenter.setView(this);
+
+        binding.newGameBtn.setOnClickListener((view) -> {
+            onNewGameClick();
+        });
+        binding.clearAllBtn.setOnClickListener((view) -> {
+            onClearClick();
+        });
+        binding.settingsButton.setOnClickListener((view) -> {
+            onSettingsClick();
+        });
     }
 
     @Override
@@ -81,14 +93,12 @@ public class MainMenuActivity extends FullscreenActivity implements MainMenuView
         mPresenter.loadData();
     }
 
-    @OnClick(R.id.new_game_btn)
     public void onNewGameClick() {
-        int dim = mGameRoundDimVals[ mGameTempSpinner.getSelectedItemPosition() ];
+        int dim = mGameRoundDimVals[mGameTempSpinner.getSelectedItemPosition()];
 
         mPresenter.newGameRound(dim, dim);
     }
 
-    @OnClick(R.id.clear_all_btn)
     public void onClearClick() {
         mPresenter.clearAll();
     }
@@ -98,8 +108,7 @@ public class MainMenuActivity extends FullscreenActivity implements MainMenuView
         if (enable) {
             mNewGameProgress.setVisibility(View.VISIBLE);
             mNewGameContent.setVisibility(View.INVISIBLE);
-        }
-        else {
+        } else {
             mNewGameProgress.setVisibility(View.INVISIBLE);
             mNewGameContent.setVisibility(View.VISIBLE);
         }
@@ -166,7 +175,6 @@ public class MainMenuActivity extends FullscreenActivity implements MainMenuView
         }
     }
 
-    @OnClick(R.id.settings_button)
     public void onSettingsClick() {
         Intent intent = new Intent(this, SettingsActivity.class);
         startActivity(intent);
