@@ -6,6 +6,7 @@ import android.content.Context;
 import com.refined.stylish.sanhdieu.di.component.AppComponent;
 import com.refined.stylish.sanhdieu.di.component.DaggerAppComponent;
 import com.refined.stylish.sanhdieu.di.modules.AppModule;
+import com.refined.stylish.sanhdieu.lib.AAAHelper;
 
 import dagger.internal.DaggerCollections;
 
@@ -20,6 +21,7 @@ public class WordSearchApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        AAAHelper._onCreate(this);
         mAppComponent = DaggerAppComponent.builder().appModule(new AppModule(this)).build();
     }
 
@@ -30,5 +32,6 @@ public class WordSearchApp extends Application {
     @Override
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
+        AAAHelper._attachBaseContext(base, this);
     }
 }

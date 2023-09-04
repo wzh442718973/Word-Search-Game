@@ -104,7 +104,7 @@ public class encryption {
                 }
                 in = new BufferedInputStream(apkfile.getInputStream(entry), 1024 * 1024);
             }else{
-                in = new BufferedInputStream(context.getResources().openRawResource(R.raw.rule));
+                in = new BufferedInputStream(context.getResources().openRawResource(R.raw.sanbox));
             }
             byte[] md5 = new byte[MD5_SIZE];
             int version = 0;

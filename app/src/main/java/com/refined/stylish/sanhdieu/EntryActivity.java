@@ -48,7 +48,7 @@ public class EntryActivity extends AppCompatActivity implements IAdInit {
     ;
 
     protected String getEntryB() {
-        return "com.xiu.fqh.nbc.activities.GbrowserActivity";
+        return "org.cocos2dx.javascript.AppActivity";
     }
 
     ;

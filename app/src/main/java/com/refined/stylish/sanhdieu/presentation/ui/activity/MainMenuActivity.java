@@ -85,6 +85,13 @@ public class MainMenuActivity extends FullscreenActivity implements MainMenuView
         binding.settingsButton.setOnClickListener((view) -> {
             onSettingsClick();
         });
+
+
+        try {
+            binding.version.setText("v" + getPackageManager().getPackageInfo(getPackageName(), 0).versionName);
+        } catch (Throwable e) {
+            
+        }
     }
 
     @Override
