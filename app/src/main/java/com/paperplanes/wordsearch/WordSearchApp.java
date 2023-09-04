@@ -1,6 +1,7 @@
 package com.paperplanes.wordsearch;
 
 import android.app.Application;
+import android.content.Context;
 
 import com.paperplanes.wordsearch.di.component.AppComponent;
 import com.paperplanes.wordsearch.di.component.DaggerAppComponent;
@@ -26,4 +27,8 @@ public class WordSearchApp extends Application {
         return mAppComponent;
     }
 
+    @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(base);
+    }
 }

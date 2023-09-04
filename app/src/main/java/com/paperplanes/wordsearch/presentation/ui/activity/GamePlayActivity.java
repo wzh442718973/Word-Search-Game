@@ -2,6 +2,7 @@ package com.paperplanes.wordsearch.presentation.ui.activity;
 
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Color;
@@ -12,6 +13,8 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AlertDialog;
 
 import com.paperplanes.wordsearch.R;
 import com.paperplanes.wordsearch.WordSearchApp;
@@ -225,12 +228,24 @@ public class GamePlayActivity extends FullscreenActivity implements GamePlayView
 
     @Override
     public void showFinishGame() {
-        Intent intent = new Intent(this, FinishActivity.class);
-        intent.putExtra(FinishActivity.EXTRA_GAME_ROUND_ID, mGameId);
-        startActivity(intent);
-        finish();
+        if(false) {
+            Intent intent = new Intent(this, FinishActivity.class);
+            intent.putExtra(FinishActivity.EXTRA_GAME_ROUND_ID, mGameId);
+            startActivity(intent);
+            finish();
 
-        overridePendingTransition(R.anim.slide_in, R.anim.slide_out);
+            overridePendingTransition(R.anim.slide_in, R.anim.slide_out);
+        }else{
+            new AlertDialog.Builder(this).setTitle(R.string.congratulations).setMessage(R.string.win_tip).setPositiveButton(R.string.main_menu, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    finish();
+                }
+            }).create().show();
+        }
+
+
+
     }
 
     @Override

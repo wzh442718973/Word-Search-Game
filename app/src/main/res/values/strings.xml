@@ -3,6 +3,7 @@
     <string name="new_game_loading_text">Generating game data…</string>
     <string name="summary_about">Word search game is a puzzle game, where the player try to find words in a grid of letters in horizontal, vertical and diagonal direction.</string>
     <string name="finished">Finished!</string>
+    <string name="win_tip">Congratulations on the successful challenge. \nReturn to the main menu to continue with the new game?</string>
 
     <!-- prefs -->
     <string name="pref_showGridLine">showGridLine</string>

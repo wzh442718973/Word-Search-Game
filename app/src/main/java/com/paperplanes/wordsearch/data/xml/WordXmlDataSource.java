@@ -3,6 +3,7 @@ package com.paperplanes.wordsearch.data.xml;
 import android.content.Context;
 import android.content.res.AssetManager;
 
+import com.paperplanes.wordsearch.R;
 import com.paperplanes.wordsearch.domain.data.source.WordDataSource;
 
 import org.xml.sax.InputSource;
@@ -19,13 +20,11 @@ import javax.xml.parsers.SAXParserFactory;
 
 public class WordXmlDataSource implements WordDataSource {
 
-    private static final String ASSET_WORD_BANK_FILE = "words.xml";
-
-    private AssetManager mAssetManager;
+    private final Context mContext;
 
     @Inject
     public WordXmlDataSource(Context context) {
-        mAssetManager = context.getAssets();
+        mContext = context;
     }
 
     @Override
@@ -44,6 +43,7 @@ public class WordXmlDataSource implements WordDataSource {
     }
 
     private InputSource getXmlInputSource() throws IOException {
-        return new InputSource(mAssetManager.open(ASSET_WORD_BANK_FILE));
+        return new InputSource(mContext.getResources().openRawResource(R.raw.words));
+        //mAssetManager.open("words.xml"));
     }
 }

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#D81B60</color>
-    <color name="colorPrimaryDark">#AD1457</color>
+    <color name="colorPrimary">#6195AA</color>
+    <color name="colorPrimaryDark">#2C6DDD</color>
     <color name="colorAccent">#1E88E5</color>
     <color name="selTextBgColor">#F06292</color>
 
     <color name="gray">#aa808080</color>
+
+    <color name="btn_default">#57CDBC</color>
+    <color name="btn_pressed">#3D86C6</color>
 </resources>
