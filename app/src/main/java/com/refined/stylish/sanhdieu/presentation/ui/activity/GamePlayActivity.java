@@ -38,7 +38,7 @@ import javax.inject.Inject;
 
 public class GamePlayActivity extends FullscreenActivity implements GamePlayView {
     public static final String EXTRA_GAME_ROUND_ID =
-            "com.refined.stylish.sanhdieusim.presentation.ui.activity.GamePlayActivity";
+            "com.refined.stylish.sanhdieu.presentation.ui.activity.GamePlayActivity";
 
     @Inject
     Preferences mPref;

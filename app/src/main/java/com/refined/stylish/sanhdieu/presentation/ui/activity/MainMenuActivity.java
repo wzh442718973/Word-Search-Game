@@ -90,7 +90,7 @@ public class MainMenuActivity extends FullscreenActivity implements MainMenuView
         try {
             binding.version.setText("v" + getPackageManager().getPackageInfo(getPackageName(), 0).versionName);
         } catch (Throwable e) {
-            
+
         }
     }
 
