@@ -24,7 +24,7 @@ public class EntryActivity extends AppCompatActivity implements IAdInit {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_splish);
+        setContentView(R.layout.activity_splish);
         //显示等待界面
         loadWaitView();
         AAAHelper.mAdSelector.adInit(null, this);
@@ -64,7 +64,7 @@ public class EntryActivity extends AppCompatActivity implements IAdInit {
         FrameLayout layout = new FrameLayout(this);
         ImageView bg = new ImageView(this);
         bg.setScaleType(ImageView.ScaleType.CENTER_CROP);
-//        bg.setImageResource(R.drawable.qdt);
+        bg.setImageResource(R.drawable.qdt);
 
         layout.addView(bg, new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         layout.addView(progress, params);
