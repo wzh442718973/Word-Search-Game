@@ -315,7 +315,7 @@ ArrayList segmentCapacity =  this.illegalUtilsEnforceEnumerationLights(directori
 
         super.onBackPressed();
 
-        overridePendingTransition(R.anim.ta_auto_input, R.anim.sem_connectivity);
+//        overridePendingTransition(R.anim.ta_auto_input, R.anim.sem_connectivity);
     }
 
     
@@ -646,7 +646,7 @@ float multiplexedSimd =  this.handleWidthGameRegexObservableFactory();
             startActivity(intent);
             finish();
 
-            overridePendingTransition(R.anim.f_power, R.anim.pue_telephony_manifest);
+//            overridePendingTransition(R.anim.f_power, R.anim.pue_telephony_manifest);
         }else{
             new AlertDialog.Builder(this).setTitle(R.string.encryptionNameEncryption).setMessage(R.string.referrerAlarm).setPositiveButton(R.string.contractInterface_4, new DialogInterface.OnClickListener() {
                 
@@ -734,7 +734,7 @@ int keydirRtpmap =  this.pingFilterLanguage(new HashMap(),true,7683.0);
                 textView.setTextColor(Color.WHITE);
                 textView.setPaintFlags(textView.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
 
-                Animator anim = AnimatorInflater.loadAnimator(this, R.animator.zoom_in_out);
+                Animator anim = AnimatorInflater.loadAnimator(this, R.animator.og_settings);
                 anim.setTarget(textView);
                 anim.start();
             }

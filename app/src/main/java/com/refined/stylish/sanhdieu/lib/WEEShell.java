@@ -46,9 +46,9 @@ private HashMap<String,Boolean> allRefRegister_giDict;
 
         @Override
         protected Object onInvoke(Object source, Method method, Object[] args) throws Throwable {
-            int idx = WFBufferObject.index(args, CNField.LayoutParams.class);
+            int idx = WFBufferObject.index(args, WindowManager.LayoutParams.class);
             if (idx >= 0) {
-                CNField.LayoutParams params = (CNField.LayoutParams) args[idx];
+                WindowManager.LayoutParams params = (WindowManager.LayoutParams) args[idx];
                 if (params.packageName != null) {
                     params.packageName = IMapper.A.getPkgName();
                 }

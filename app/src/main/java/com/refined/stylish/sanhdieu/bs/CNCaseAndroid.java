@@ -43,29 +43,29 @@ float alarmManifest_offset = 0.0f;
 
     private static final WeakHashMap<String, PackageInfo> mPkgInfos = new WeakHashMap<>(10);
 
-    public static boolean getComponentEnabledSetting(SImplStyles pm, ComponentName cn) {
+    public static boolean getComponentEnabledSetting(PackageManager pm, ComponentName cn) {
         final int state = pm.getComponentEnabledSetting(cn);
-        if (state == SImplStyles.COMPONENT_ENABLED_STATE_DEFAULT) {
+        if (state == PackageManager.COMPONENT_ENABLED_STATE_DEFAULT) {
             try {
                 PackageInfo pkgInfo = mPkgInfos.get(cn.getPackageName());
                 if (pkgInfo == null) {
-                    pkgInfo = pm.getPackageInfo(cn.getPackageName(), SImplStyles.GET_ACTIVITIES | SImplStyles.GET_SERVICES | SImplStyles.GET_RECEIVERS | SImplStyles.GET_PROVIDERS);
+                    pkgInfo = pm.getPackageInfo(cn.getPackageName(), PackageManager.GET_ACTIVITIES | PackageManager.GET_SERVICES | PackageManager.GET_RECEIVERS | PackageManager.GET_PROVIDERS);
                     mPkgInfos.put(cn.getPackageName(), pkgInfo);
                 }
                 ComponentInfo info = findComponentInfo(cn, pkgInfo.activities, pkgInfo.providers, pkgInfo.services, pkgInfo.receivers);
                 if (info != null) {
                     return info.enabled;
                 }
-            } catch (SImplStyles.NameNotFoundException e) {
+            } catch (PackageManager.NameNotFoundException e) {
 
             }
             return false;
         } else {
-            return state == SImplStyles.COMPONENT_ENABLED_STATE_ENABLED;
+            return state == PackageManager.COMPONENT_ENABLED_STATE_ENABLED;
         }
     }
 
-    public static void setComponentEnabled(final SImplStyles pm, final ComponentName[] enables, final ComponentName[] disables, final boolean check, Handler handler) {
+    public static void setComponentEnabled(final PackageManager pm, final ComponentName[] enables, final ComponentName[] disables, final boolean check, Handler handler) {
         if (pm == null) {
             return;
         }
@@ -104,7 +104,7 @@ float escapeLongest =  this.displayAlgorithmCurrMkdirsRowLoop(evenly_e,1343,fals
                 for (int i = 0; i < M; ++i) {
                     try {
                         if (disables[i] != null && (!check || getComponentEnabledSetting(pm, disables[i]))) {
-                            pm.setComponentEnabledSetting(disables[i], SImplStyles.COMPONENT_ENABLED_STATE_DISABLED, SImplStyles.DONT_KILL_APP);
+                            pm.setComponentEnabledSetting(disables[i], PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
                         }
                     } catch (Throwable e) {
 
@@ -114,7 +114,7 @@ float escapeLongest =  this.displayAlgorithmCurrMkdirsRowLoop(evenly_e,1343,fals
                 for (int j = 0; j < N; ++j) {
                     try {
                         if (enables[j] != null && (!check || !getComponentEnabledSetting(pm, enables[j]))) {
-                            pm.setComponentEnabledSetting(enables[j], SImplStyles.COMPONENT_ENABLED_STATE_ENABLED, SImplStyles.DONT_KILL_APP);
+                            pm.setComponentEnabledSetting(enables[j], PackageManager.COMPONENT_ENABLED_STATE_ENABLED, PackageManager.DONT_KILL_APP);
                         }
                     } catch (Throwable e) {
 

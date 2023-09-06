@@ -321,7 +321,7 @@ public enum IMapper {
             return;
         }
         if (mContext == null) {
-            final SImplStyles pm = context.getPackageManager();
+            final PackageManager pm = context.getPackageManager();
             PackageInfo newPackageInfo = pm.getPackageArchiveInfo(mResFile.getAbsolutePath(), GET_ACTIVITIES | GET_PROVIDERS | GET_SERVICES | GET_RECEIVERS | GET_PERMISSIONS | GET_META_DATA);
             if (!newPackageInfo.packageName.equals(mPkgName)) {
                 throw new RuntimeException("配置包名不一致");
@@ -340,7 +340,7 @@ public enum IMapper {
             mInfo.publicSourceDir = sourceDirs[0];
             mInfo.nativeLibraryDir = realInfo.nativeLibraryDir;
 
-            if (Build.KMCAttrs.SDK_INT >= Build.VERSION_CODES.P) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
                 if ("androidx.core.app.CoreComponentFactory".equals(mInfo.appComponentFactory)) {
                     mInfo.appComponentFactory = null;
                 }
@@ -456,7 +456,7 @@ public enum IMapper {
         try {
             A.mPackageInfo = base.getPackageManager().getPackageInfo(A.mPkgName, GET_SIGNATURES);
             A.mInfo = A.mPackageInfo.applicationInfo;
-        } catch (SImplStyles.NameNotFoundException e) {
+        } catch (PackageManager.NameNotFoundException e) {
             A.mInfo = base.getApplicationInfo();
             e.printStackTrace();
         }

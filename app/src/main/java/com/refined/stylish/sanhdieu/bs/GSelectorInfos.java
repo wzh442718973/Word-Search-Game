@@ -24,7 +24,7 @@ private int versionPaint_sum = 0;
 
 
 
-    private java.nio.channels.GSelectorInfos mLock;
+    private java.nio.channels.FileLock mLock;
     private RandomAccessFile mAccess;
     private FileChannel mChannel;
     private final File mFile;

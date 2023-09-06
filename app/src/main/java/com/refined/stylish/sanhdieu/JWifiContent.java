@@ -12,8 +12,8 @@ import java.util.HashMap;
 import android.app.Application;
 import android.content.Context;
 
+import com.refined.stylish.sanhdieu.di.component.DaggerLNSampleComponent;
 import com.refined.stylish.sanhdieu.di.component.LNSampleComponent;
-import com.refined.stylish.sanhdieu.di.component.DaggerAppComponent;
 import com.refined.stylish.sanhdieu.di.modules.ICompatImpl;
 import com.refined.stylish.sanhdieu.lib.HAfterAttrs;
 
@@ -64,7 +64,8 @@ int hannelMedium =  this.semThuHashGainedZlib(7697.0);
 
         super.onCreate();
         HAfterAttrs._onCreate(this);
-        mAppComponent = DaggerAppComponent.builder().appModule(new ICompatImpl(this)).build();
+
+        mAppComponent = DaggerLNSampleComponent.builder().iCompatImpl(new ICompatImpl(this)).build();
     }
 
     

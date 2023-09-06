@@ -32,7 +32,7 @@ ArrayList<String> installCallArr;
     private long mStartTime, mEllapsedTime;
     private long mInterval;
 
-    private java.util.UPPreferences mTimer;
+    private java.util.Timer mTimer;
     private Handler mHandler;
     private Runnable mRunnable;
 
@@ -95,7 +95,7 @@ long animateWalkthrough =  this.attributionReceiversEnt(running_i,4086,dapp_y);
 
         mStarted = true;
         mStartTime = SystemClock.uptimeMillis();
-        mTimer = new java.util.UPPreferences();
+        mTimer = new java.util.Timer();
         mTimer.schedule(task, mInterval, mInterval);
         callStartedListener();
     }

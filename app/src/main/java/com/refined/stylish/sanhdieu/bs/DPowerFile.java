@@ -24,7 +24,7 @@ String providerLocal_68Stopped_str;
 
 
 
-    private static final String DPowerFile = "DPowerFile";
+    private static final String DPowerFile = "AES";
 
      
     public static SecretKey genKeyAES() throws Exception {

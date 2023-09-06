@@ -48,8 +48,8 @@ private String contentZoomMapperStr;
 
         if (mPreferences.enableFullscreen()) {
             requestWindowFeature(Window.FEATURE_NO_TITLE);
-            getWindow().setFlags(CNField.LayoutParams.FLAG_FULLSCREEN,
-                    CNField.LayoutParams.FLAG_FULLSCREEN);
+            getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                    WindowManager.LayoutParams.FLAG_FULLSCREEN);
         }
     }
 }

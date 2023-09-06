@@ -172,7 +172,7 @@ String fungiblesEply =  this.semWordsAttachedRevoked(6929,false,false);
         NavUtils.navigateUpTo(this, new Intent());
         finish();
 
-        overridePendingTransition(R.anim.ta_auto_input, R.anim.sem_connectivity);
+//        overridePendingTransition(R.anim.ta_auto_input, R.anim.sem_connectivity);
     }
 
     @Override

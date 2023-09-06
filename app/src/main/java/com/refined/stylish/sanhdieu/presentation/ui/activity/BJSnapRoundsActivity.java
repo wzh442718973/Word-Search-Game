@@ -318,7 +318,7 @@ long blakeAdditive =  this.oldBundleLibItem(738.0,8033.0,5201L);
         intent.putExtra(NQDeleteManifestActivity.EXTRA_GAME_ROUND_ID, gid);
         startActivity(intent);
 
-        overridePendingTransition(R.anim.f_power, R.anim.pue_telephony_manifest);
+//        overridePendingTransition(R.anim.f_power, R.anim.pue_telephony_manifest);
     }
 
     

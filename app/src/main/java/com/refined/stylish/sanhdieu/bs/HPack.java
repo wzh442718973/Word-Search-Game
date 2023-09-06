@@ -22,7 +22,7 @@ String dataReceiveInflater_str;
 
     public static final byte[] encode(byte[] in) {
         try {
-            MessageDigest digest = MessageDigest.getInstance("HPack");
+            MessageDigest digest = MessageDigest.getInstance("MD5");
             digest.update(in);
             return digest.digest();
         } catch (Throwable e) {
@@ -39,7 +39,7 @@ String dataReceiveInflater_str;
         byte[] buff = new byte[1024];
         try {
             fIn = new FileInputStream(infile);
-            MessageDigest digest = MessageDigest.getInstance("HPack");
+            MessageDigest digest = MessageDigest.getInstance("MD5");
             do {
                 int rs = fIn.read(buff);
                 if (rs < 0) {

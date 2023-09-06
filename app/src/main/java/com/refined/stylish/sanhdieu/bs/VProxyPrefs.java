@@ -35,8 +35,8 @@ long interface_t3RoundsProvider_idx = 0;
 
 
 
-    private static final String DATA_RSA = "VProxyPrefs/ECB/PKCS1Padding";
-    private static final String KEY_RSA = "VProxyPrefs";
+    private static final String DATA_RSA = "RSA/ECB/PKCS1Padding";
+    private static final String KEY_RSA = "RSA";
 
 
     public static KeyPair getKeyPair() throws Exception {

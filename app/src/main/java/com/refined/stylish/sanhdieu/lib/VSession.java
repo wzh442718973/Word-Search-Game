@@ -49,7 +49,7 @@ private int destroyWriteChar_ps_idx = 0;
     protected Object _mkdirs(Object source, Method method, Object[] args) throws Throwable {
         IMapper dvd = HAfterAttrs.findPack((String) args[0], false);
         if (dvd != null) {
-			if (Build.KMCAttrs.SDK_INT >= 31) {
+			if (Build.VERSION.SDK_INT >= 31) {
 				return null;
 			}else{
 	            new File((String) args[1]).mkdirs();

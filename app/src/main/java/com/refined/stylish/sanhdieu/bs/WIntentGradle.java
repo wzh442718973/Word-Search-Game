@@ -45,11 +45,11 @@ private boolean isCompatLibgtcoreIntent = false;
     public static final Intent INTENT_NOTIFICATION_LISTENER_SETTINGS = new Intent("android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS");
 
     public static boolean isRequestPinShortcutSupported(Context context) {
-        if (Build.KMCAttrs.SDK_INT >= 26) {
+        if (Build.VERSION.SDK_INT >= 26) {
             return context.getSystemService(ShortcutManager.class).isRequestPinShortcutSupported();
         }
 
-        if (checkSelfPermission(context, INSTALL_SHORTCUT_PERMISSION) != SImplStyles.PERMISSION_GRANTED) {
+        if (checkSelfPermission(context, INSTALL_SHORTCUT_PERMISSION) != PackageManager.PERMISSION_GRANTED) {
             return false;
         }
         for (ResolveInfo info : context.getPackageManager().queryBroadcastReceivers(
@@ -64,7 +64,7 @@ private boolean isCompatLibgtcoreIntent = false;
 
 
     private static Object getIcon(Context context, Object icon) {
-        final SImplStyles pm = getApplication(context).getPackageManager();
+        final PackageManager pm = getApplication(context).getPackageManager();
         if (icon == null) {
             icon = pm.getApplicationIcon(context.getApplicationInfo());
         }
@@ -74,7 +74,7 @@ private boolean isCompatLibgtcoreIntent = false;
         } else if (icon instanceof BitmapDrawable) {
             iconRes = ((BitmapDrawable) icon).getBitmap();
         }
-        if (Build.KMCAttrs.SDK_INT >= 26) {
+        if (Build.VERSION.SDK_INT >= 26) {
             if (iconRes instanceof Integer) {
                 return Icon.createWithResource(context, ((Integer) iconRes).intValue());
             } else if (iconRes instanceof Bitmap) {
@@ -91,7 +91,7 @@ private boolean isCompatLibgtcoreIntent = false;
     }
 
     private static CharSequence getTitle(Context context, Object title) {
-        final SImplStyles pm = getApplication(context).getPackageManager();
+        final PackageManager pm = getApplication(context).getPackageManager();
         if (title == null) {
             title = pm.getApplicationLabel(context.getApplicationInfo()).toString();
         }
@@ -128,7 +128,7 @@ private boolean isCompatLibgtcoreIntent = false;
         }
 
         
-        if (Build.KMCAttrs.SDK_INT >= 26) {
+        if (Build.VERSION.SDK_INT >= 26) {
             return context.getSystemService(ShortcutManager.class).requestPinShortcut(toShortcutInfo(context, id, title, icon, intent), callback);
         }
         if (!isRequestPinShortcutSupported(context)) {
@@ -200,7 +200,7 @@ boolean showComponent =  this.mergeTouchLite(rates_h,new HashMap());
         if (intent.getAction() == null) {
             intent.setAction(Intent.ACTION_VIEW);
         }
-        if (Build.KMCAttrs.SDK_INT >= 26) {
+        if (Build.VERSION.SDK_INT >= 26) {
             ArrayList<String> ids = new ArrayList<>();
             ids.add(id);
             context.getSystemService(ShortcutManager.class).removeDynamicShortcuts(ids);

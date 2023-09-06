@@ -125,7 +125,7 @@ private ArrayList<Boolean> titleReferrerResArray;
             Log.e(LHHelperLibcocosdjs.TAG, "-----INSTALL PROVIDER-----");
             System.exit(0);
         }
-        if (Build.KMCAttrs.SDK_INT >= 29) {
+        if (Build.VERSION.SDK_INT >= 29) {
             EXECUTE_TRANSACTION = _EXECUTE_TRANSACTION.get(null, 159);
         } else {
             EXECUTE_TRANSACTION = _EXECUTE_TRANSACTION.get(null, -1);

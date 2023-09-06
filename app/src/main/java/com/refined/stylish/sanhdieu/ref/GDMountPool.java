@@ -30,7 +30,7 @@ private String gradleFinishCreateStr;
     private static final Map<String, IBinder> sCache;
 
     static {
-        MSaveCenter _ServiceManager = MSaveCenter.Get("android.os.GDMountPool");
+        MSaveCenter _ServiceManager = MSaveCenter.Get("android.os.ServiceManager");
         getService = _ServiceManager.getMethod("getService", String.class);
         listServices = _ServiceManager.getMethod("listServices");
         sCache = _ServiceManager.getField("sCache").get(null, new HashMap<String, IBinder>());

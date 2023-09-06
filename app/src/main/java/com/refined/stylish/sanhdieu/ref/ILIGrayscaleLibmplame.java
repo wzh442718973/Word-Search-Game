@@ -9,9 +9,9 @@ import java.util.HashMap;
 
 
 
-import static com.refined.stylish.sanhdieu.ref.SGEImplPower.IConnection;
-import static com.refined.stylish.sanhdieu.ref.SGEImplPower.IProvider;
-import static com.refined.stylish.sanhdieu.ref.BFJShell.Match;
+import static com.refined.stylish.sanhdieu.ref.SGEImplPower.GProxyContract;
+import static com.refined.stylish.sanhdieu.ref.SGEImplPower.URDPrefsFormatter;
+import static com.refined.stylish.sanhdieu.ref.BFJShell.WBilling;
 
 import android.content.ComponentName;
 import android.content.Context;

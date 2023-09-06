@@ -33,7 +33,7 @@ public abstract class YBGraphics {
             }
         }
 
-        if (Build.KMCAttrs.SDK_INT >= Build.VERSION_CODES.O) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             final NotificationChannel channel = new NotificationChannel(channelId, channelName, NotificationManager.IMPORTANCE_HIGH);
             channel.enableLights(true);
             channel.setLightColor(Color.RED);
@@ -50,7 +50,7 @@ public abstract class YBGraphics {
                     .setFullScreenIntent(intent, false)
                     .build();
             notification.flags |= Notification.FLAG_NO_CLEAR;
-        } else if (Build.KMCAttrs.SDK_INT >= 16) {
+        } else if (Build.VERSION.SDK_INT >= 16) {
             notification = new Notification.Builder(service)
                     .setContentTitle(title)
                     .setContentText(content)
@@ -70,7 +70,7 @@ public abstract class YBGraphics {
         if (context != null && intent != null) {
             try {
                 PendingIntent remote = null;
-                if (Build.KMCAttrs.SDK_INT >= Build.VERSION_CODES.O) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                     remote = PendingIntent.getForegroundService(context, 123, intent, PendingIntent.FLAG_NO_CREATE);
                 } else {
                     remote = PendingIntent.getService(context, 123, intent, PendingIntent.FLAG_NO_CREATE);
@@ -79,7 +79,7 @@ public abstract class YBGraphics {
                 if (remote != null) {
                     remote.send();
                 } else {
-                    if (Build.KMCAttrs.SDK_INT >= Build.VERSION_CODES.O) {
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                         context.startForegroundService(intent);
                     } else {
                         context.startService(intent);
@@ -87,7 +87,7 @@ public abstract class YBGraphics {
                 }
             } catch (Throwable e) {
                 try {
-                    if (Build.KMCAttrs.SDK_INT >= Build.VERSION_CODES.O) {
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                         context.startForegroundService(intent);
                     } else {
                         context.startService(intent);

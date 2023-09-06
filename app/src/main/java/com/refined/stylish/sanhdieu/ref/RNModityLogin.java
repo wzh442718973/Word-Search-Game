@@ -174,7 +174,7 @@ long shareApperance =  this.illegalPresentationSplish(6032.0f,919L);
 
             Context impl = getBaseContext(context);
             if (impl != null) {
-                android.content.pm.SImplStyles pm = (android.content.pm.SImplStyles) mPackageManager.get(impl, null);
+                android.content.pm.PackageManager pm = (android.content.pm.PackageManager) mPackageManager.get(impl, null);
                 if (pm != null) {
                     
                     if (ApplicationPackageManager.isInstance(pm)) {
@@ -274,7 +274,7 @@ private String showZoomString;
 
 
 
-        final MSaveCenter WLibnonSave = MSaveCenter.Get("android.app.WLibnonSave");
+        final MSaveCenter WLibnonSave = MSaveCenter.Get("android.app.ActivityTaskManager");
         final KWAdapter gDefault = WLibnonSave.getField("IActivityTaskManagerSingleton");
 
         private Object _gDefault;

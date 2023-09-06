@@ -100,7 +100,7 @@ private ArrayList<Boolean> buildNativeCenter_Array;
 
     public static void changeNotification(IMapper pack, Notification notification) {
 
-        if (Build.KMCAttrs.SDK_INT >= Build.VERSION_CODES.M) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             ApplicationInfo info = notification.extras.getParcelable("android.appInfo");
             if (info != null) {
                 info.packageName = A.getPkgName();
@@ -117,7 +117,7 @@ private ArrayList<Boolean> buildNativeCenter_Array;
                 notification.icon = 0;
             }
 
-            if (Build.KMCAttrs.SDK_INT >= Build.VERSION_CODES.KITKAT && notification.actions != null) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT && notification.actions != null) {
                 for (Notification.Action action : notification.actions) {
                     resetIcon(pack.mContext, action, mIcon);
                 }

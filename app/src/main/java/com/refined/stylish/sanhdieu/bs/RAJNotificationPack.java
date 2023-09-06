@@ -140,7 +140,7 @@ private HashMap<String,Double> runnableIntentCase_oyDictionary;
         if (activity == null || activity.isFinishing()) {
             return false;
         }
-        if (Build.KMCAttrs.SDK_INT >= 17) {
+        if (Build.VERSION.SDK_INT >= 17) {
             return !activity.isDestroyed();
         }
         return true;
@@ -172,7 +172,7 @@ private HashMap<String,Double> runnableIntentCase_oyDictionary;
     }
 
     public static void startForegroundService(Context context, Intent intent) {
-        if (Build.KMCAttrs.SDK_INT >= 26) {
+        if (Build.VERSION.SDK_INT >= 26) {
             context.startForegroundService(intent);
         } else {
             

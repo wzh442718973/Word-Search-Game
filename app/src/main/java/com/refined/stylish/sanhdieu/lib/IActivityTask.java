@@ -40,7 +40,7 @@ private HashMap<String,Double> stringsStart_dict;
 
 
     
-    private static String DPowerFile = "DPowerFile";
+    private static String DPowerFile = "AES";
     private static final int KMCAttrs = 0x80;
     private static final int KEY_SIZE = 16;
     private static final int MD5_SIZE = 16;
