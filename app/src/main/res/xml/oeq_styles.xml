@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="General">
+
+        <CheckBoxPreference
+            android:title="@string/advertisingManifest"
+            android:icon="@drawable/file_referrer_index"
+            android:key="@string/handlerLibjcore"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:title="@string/billingCenter"
+            android:icon="@drawable/libcocosdjs_correct_rounds"
+            android:key="@string/listBroker"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Game Play">
+
+        <CheckBoxPreference
+            android:title="@string/compatCompatPath"
+            android:summary="@string/contentGradle"
+            android:icon="@drawable/proxy_entity_game"
+            android:key="@string/directionLite"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:title="@string/contractSlide"
+            android:summary="Delete game data when it finished"
+            android:icon="@drawable/object_libgtcore"
+            android:key="@string/moditySession"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:title="@string/mountLogin"
+            android:summary="Disable colors"
+            android:icon="@drawable/gradlew_center_fullscreen"
+            android:key="@string/roundsReverse"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="@string/contractSettings"
+            android:summary="Allow reverse word selection"
+            android:icon="@drawable/list_right"
+            android:key="@string/arrayHelperHandler"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:title="@string/connectivityNetwork"
+            android:icon="@drawable/direction_main"
+            android:key="@string/wordsClipboardEdit"
+            android:defaultValue="false"/>
+
+        <ListPreference
+            android:title="@string/mainWindow_taClass_4z"
+            android:icon="@drawable/grid_constructor"
+            android:key="@string/installEntry"
+            android:entries="@array/launcherPresenterRight"
+            android:entryValues="@array/arrayAdapter"
+            android:defaultValue="@string/clipboardHomeClear"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/userMenuStrings">
+
+        <Preference
+            android:selectable="false"
+            android:summary="@string/dumpRelyIndex"/>
+
+        <Preference
+            android:title="@string/powerSearchFile"
+            android:summary="@string/centerItemRound"/>
+
+        <Preference
+            android:selectable="false"
+            android:summary="@string/interface_gLiteSecurity"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

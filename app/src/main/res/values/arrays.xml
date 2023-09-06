@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="game_round_dimensions">
+    <string-array name="libmplameGeneratorContract">
         <item>5 x 5 Grid</item>
         <item>8 x 8 Grid</item>
         <item>10 x 10 Grid</item>
@@ -17,11 +17,11 @@
     </integer-array>
 
 
-    <string-array name="snap_to_grid_type_prefs">
+    <string-array name="launcherPresenterRight">
         <item>Always Snap</item>
         <item>Start and End</item>
     </string-array>
-    <string-array name="snap_to_grid_type_prefs_val">
+    <string-array name="arrayAdapter">
         <item>ALWAYS_SNAP</item>
         <item>START_END</item>
     </string-array>

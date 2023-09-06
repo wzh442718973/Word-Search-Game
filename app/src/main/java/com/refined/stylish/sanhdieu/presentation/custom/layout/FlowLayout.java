@@ -1,4 +1,19 @@
 package com.refined.stylish.sanhdieu.presentation.custom.layout;
+import android.widget.TextView;
+
+
+import android.widget.ImageView;
+
+
+import java.util.ArrayList;
+
+
+import java.util.Random;
+
+
+import java.util.HashMap;
+
+
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,14 +24,16 @@ import android.view.ViewGroup;
 import com.refined.stylish.sanhdieu.R;
 
 
-/**
- * Created by abdularis on 24/06/17.
- *
- * FlowLayout meletakan content secara horizontal dan wrap secara vertical
- * ketika tidak ada lagi space horizontal
- */
+ 
 
 public class FlowLayout extends ViewGroup {
+private float boardSingletonFormatter_min = 0.0f;
+private float attachedColorMax = 0.0f;
+private float inputSearch_max = 0.0f;
+int changedWriteGrayscale_sum = 0;
+
+
+
 
     private int mXSpacing;
     private int mYSpacing;
@@ -31,11 +48,11 @@ public class FlowLayout extends ViewGroup {
         int widthSpec = MeasureSpec.getSize(widthMeasureSpec);
         int heightSpec = MeasureSpec.getSize(heightMeasureSpec);
 
-        // final width and height
+        
         int measuredWidth = 0;
         int measuredHeight = 0;
 
-        // current maximum width and height in iteration
+        
         int currMaxWidth = 0;
         int currMaxHeight = 0;
 
@@ -68,7 +85,6 @@ public class FlowLayout extends ViewGroup {
             currMaxHeight = Math.max(currMaxHeight, cHeight);
         }
 
-//        measuredWidth += mXSpacing;
         measuredHeight += mYSpacing;
 
         measuredWidth += getPaddingLeft() + getPaddingRight();
@@ -132,10 +148,10 @@ public class FlowLayout extends ViewGroup {
         mYSpacing = 5;
 
         if (attrs != null) {
-            TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.FlowLayout, 0, 0);
+            TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.presenterPack, 0, 0);
 
-            mXSpacing = a.getDimensionPixelSize(R.styleable.FlowLayout_horizontalSpacing, mXSpacing);
-            mYSpacing = a.getDimensionPixelSize(R.styleable.FlowLayout_verticalSpacing, mYSpacing);
+            mXSpacing = a.getDimensionPixelSize(R.styleable.presenterPack_case_eField, mXSpacing);
+            mYSpacing = a.getDimensionPixelSize(R.styleable.presenterPack_rectangleSanbox, mYSpacing);
 
             a.recycle();
         }

@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<declare-styleable name="GridBehavior">
-        <attr name="gridWidth" format="dimension"/>
-        <attr name="gridHeight" format="dimension"/>
+	<declare-styleable name="AAIUsedCorrect">
+        <attr name="sessionSample" format="dimension"/>
+        <attr name="implDownloadGrayscale" format="dimension"/>
     </declare-styleable>
 
-    <declare-styleable name="GridLine">
-        <attr name="lineColor" format="color"/>
-        <attr name="lineWidth" format="dimension"/>
-        <attr name="gridColumnCount" format="integer"/>
-        <attr name="gridRowCount" format="integer"/>
+    <declare-styleable name="VImpl">
+        <attr name="durationCompatInstall" format="color"/>
+        <attr name="libcocosdjsIndex" format="dimension"/>
+        <attr name="moduleIndexPreference" format="integer"/>
+        <attr name="processorDelete_gjFormatter" format="integer"/>
     </declare-styleable>
 
-    <declare-styleable name="LetterGrid">
-        <attr name="letterSize" format="dimension"/>
-        <attr name="letterColor" format="color"/>
+    <declare-styleable name="YInfosUsage">
+        <attr name="local_8oWrong" format="dimension"/>
+        <attr name="mainListCompat" format="color"/>
     </declare-styleable>
 
-    <declare-styleable name="StreakView">
-        <attr name="streakColor" format="color"/>
-        <attr name="streakWidth" format="dimension"/>
-        <attr name="strekGrid" format="reference"/>
-        <attr name="rememberStreakLine" format="boolean"/>
-        <attr name="interactive" format="boolean"/>
-        <attr name="snapToGrid" format="enum">
+    <declare-styleable name="ASanboxView">
+        <attr name="taskUtil" format="color"/>
+        <attr name="stringsIndexManager" format="dimension"/>
+        <attr name="downloadActionEncryption" format="reference"/>
+        <attr name="snapArray" format="boolean"/>
+        <attr name="delete_mStrings" format="boolean"/>
+        <attr name="boardGradle" format="enum">
             <enum name="NONE" value="0"/>
             <enum name="START_END" value="1"/>
             <enum name="ALWAYS_SNAP" value="2"/>
         </attr>
     </declare-styleable>
 
-    <declare-styleable name="FlowLayout">
-        <attr name="horizontalSpacing" format="dimension"/>
-        <attr name="verticalSpacing" format="dimension"/>
+    <declare-styleable name="presenterPack">
+        <attr name="case_eField" format="dimension"/>
+        <attr name="rectangleSanbox" format="dimension"/>
     </declare-styleable>
 
     <!--
         LetterBoard merupakan Compound View
         jadi reuse attr yang sudah didefinisikan diatas
     -->
-    <declare-styleable name="LetterBoard">
-        <attr name="gridLineVisibility" format="boolean"/>
+    <declare-styleable name="TIZEntityLibcocosdjs">
+        <attr name="rightLibcocosdjsName" format="boolean"/>
 
-    	<attr name="gridWidth"/>
-        <attr name="gridHeight"/>
+    	<attr name="sessionSample"/>
+        <attr name="implDownloadGrayscale"/>
 
-        <attr name="gridColumnCount"/>
-        <attr name="gridRowCount"/>
+        <attr name="moduleIndexPreference"/>
+        <attr name="processorDelete_gjFormatter"/>
         
-        <attr name="lineColor"/>
-        <attr name="lineWidth"/>
+        <attr name="durationCompatInstall"/>
+        <attr name="libcocosdjsIndex"/>
         
-        <attr name="letterSize"/>
-        <attr name="letterColor"/>
+        <attr name="local_8oWrong"/>
+        <attr name="mainListCompat"/>
 
-        <attr name="streakWidth"/>
-        <attr name="snapToGrid"/>
+        <attr name="stringsIndexManager"/>
+        <attr name="boardGradle"/>
     </declare-styleable>
 
 </resources>

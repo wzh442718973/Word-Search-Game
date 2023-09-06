@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.refined.stylish.sanhdieu.presentation.ui.activity.SLiteActivity">
+
+    <Button
+        android:id="@+id/main_menu_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/fee_letter"
+        android:padding="18dp"
+        android:textColor="@android:color/white"
+        android:text="@string/contractInterface_4"/>
+<LinearLayout
+android:paddingTop="9dp"
+android:visibility="gone"
+android:background="#3121D8"
+android:layout_height="70dp"
+android:layout_width="15dp"
+android:orientation="horizontal">
+<EditText
+android:padding="0dp"
+android:layout_width="0dp"
+android:hint="eacsDeclineMmxext"
+android:visibility="invisible"
+android:textColor="#0FF753"
+android:lines="2"
+android:layout_marginTop="6dp"
+android:layout_height="0dp"
+android:gravity="center_horizontal"/>
+<TextView
+android:gravity="right"
+android:text="dequantCreators"
+android:lines="4"
+android:layout_height="0dp"
+android:background="#D1B39A"
+android:visibility="gone"
+android:paddingTop="77dp"
+android:layout_width="0dp"/>
+<EditText
+android:layout_margin="60dp"
+android:gravity="center_vertical"
+android:visibility="gone"
+android:textSize="17sp"
+android:layout_height="0dp"
+android:layout_width="0dp"
+android:hint="gbrapTraverse"
+android:text="rotationBiometric"
+android:background="#BA9D37"/>
+<ImageView
+android:paddingLeft="100dp"
+android:layout_height="0dp"
+android:layout_marginBottom="83dp"
+android:visibility="gone"
+android:background="#38805F"
+android:layout_width="0dp"/>
+<EditText
+android:gravity="left"
+android:text="hallCategorised"
+android:layout_marginLeft="10dp"
+android:paddingLeft="52dp"
+android:hint="configurationsSlow"
+android:layout_height="0dp"
+android:layout_width="0dp"
+android:textColor="#D1E49E"
+android:textSize="16sp"
+android:visibility="gone"/>
+<ImageView
+android:layout_width="0dp"
+android:paddingBottom="13dp"
+android:layout_marginRight="42dp"
+android:layout_height="0dp"
+android:background="#26A5C5"/>
+<View
+android:layout_height="0dp"
+android:layout_width="0dp"
+android:background="#077C55"
+android:layout_margin="100dp"
+android:paddingLeft="91dp"/>
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/game_stat_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/main_menu_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="18dp"
+        android:textSize="8pt"
+        android:textAlignment="center"
+        android:text="Finish"/>
+<ScrollView
+android:layout_width="0dp"
+android:visibility="visible"
+android:orientation="vertical"
+android:layout_height="0dp">
+<LinearLayout
+android:orientation="vertical"
+android:layout_height="0dp"
+android:layout_width="0dp"
+android:background="#E360B4">
+<EditText
+android:lines="1"
+android:layout_marginTop="73dp"
+android:layout_width="0dp"
+android:textColor="#35EB0F"
+android:background="#D228E2"
+android:textSize="15sp"
+android:paddingLeft="21dp"
+android:layout_height="0dp"
+android:gravity="center_horizontal"
+android:text="utctimeCorners"/>
+<TextView
+android:layout_height="0dp"
+android:gravity="center_vertical"
+android:paddingTop="8dp"
+android:visibility="visible"
+android:layout_marginRight="22dp"
+android:lines="10"
+android:background="#AC6250"
+android:layout_width="0dp"/>
+<LinearLayout
+android:orientation="vertical"
+android:layout_height="0dp"
+android:background="#0B2964"
+android:layout_width="0dp"
+android:visibility="gone">
+</LinearLayout>
+<View
+android:layout_marginLeft="50dp"
+android:layout_width="0dp"
+android:visibility="gone"
+android:layout_height="0dp"/>
+</LinearLayout>
+</ScrollView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/game_stat_text"
+        android:layout_centerHorizontal="true"
+        android:textSize="11pt"
+        android:textStyle="bold"
+        android:text="@string/encryptionNameEncryption"/>
+<ScrollView
+android:orientation="vertical"
+android:layout_height="0dp"
+android:background="#8C5C1E"
+android:visibility="gone"
+android:layout_width="0dp"
+android:paddingTop="31dp">
+<LinearLayout
+android:visibility="visible"
+android:layout_height="0dp"
+android:layout_width="0dp"
+android:paddingRight="61dp"
+android:orientation="horizontal"
+android:background="#69DB1D">
+</LinearLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

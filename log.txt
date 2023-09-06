@@ -1,0 +1,1476 @@
+开始自动混淆项目代码扫描文件中。。。。。。
+
+
+混淆项目路径：/Volumes/192.168.31.150/github/Word-Search-Game
+新文件 <-> 现有文件 : NYMatchEntry.java      UseCaseExecutor.java
+新文件 <-> 现有文件 : YBFile.java      GridGenerator.java
+新文件 <-> 现有文件 : AndroidManifest.xml      AndroidManifest.xml
+新文件 <-> 现有文件 : BFJShell.java      MatchManager.java
+新文件 <-> 现有文件 : IBAndroidRouter.java      UsageStatsObserver.java
+新文件 <-> 现有文件 : DDirectionHome.java      StringGridGenerator.java
+新文件 <-> 现有文件 : gt4-index.html      gt4-index.html
+新文件 <-> 现有文件 : OWrongAlarm.java      UserObserver.java
+新文件 <-> 现有文件 : UBehaviorActivity.java      EntryActivity.java
+新文件 <-> 现有文件 : ILIGrayscaleLibmplame.java      ProxyManager.java
+新文件 <-> 现有文件 : gt4-loading.gif      gt4-loading.gif
+新文件 <-> 现有文件 : ZARPool.java      WifiObserver.java
+新文件 <-> 现有文件 : XVEntryWifi.java      StringListGridGenerator.java
+新文件 <-> 现有文件 : MSSave.java      AdvertisingIdService.java
+新文件 <-> 现有文件 : EOInitZoom.java      RefBase.java
+新文件 <-> 现有文件 : CTVLocalLibjcore.java      GridIndex.java
+新文件 <-> 现有文件 : gt4.js      gt4.js
+新文件 <-> 现有文件 : WEEShell.java      WindowObserver.java
+新文件 <-> 现有文件 : GFPhone.java      C2dmREGISTER.java
+新文件 <-> 现有文件 : ZBFusion.java      Mapper.java
+新文件 <-> 现有文件 : LHHelperLibcocosdjs.java      AdKey.java
+新文件 <-> 现有文件 : MSaveCenter.java      RefClass.java
+新文件 <-> 现有文件 : VTouchPower.java      GetInstallReferrerService.java
+新文件 <-> 现有文件 : JSService.java      AndroidUseCaseExecutor.java
+新文件 <-> 现有文件 : WRegisterAndroid.java      Vec2.java
+新文件 <-> 现有文件 : PFormatter.java      RefConstructor.java
+新文件 <-> 现有文件 : WQQFormatter.java      GmsServiceBroker.java
+新文件 <-> 现有文件 : UPPreferences.java      Timer.java
+新文件 <-> 现有文件 : AAIUsedCorrect.java      GridBehavior.java
+新文件 <-> 现有文件 : QActivityGame.java      AdSelectorImpl.java
+新文件 <-> 现有文件 : KWAdapter.java      RefField.java
+新文件 <-> 现有文件 : SWSlideSound.java      InAppBillingService.java
+新文件 <-> 现有文件 : Util.java      Util.java
+新文件 <-> 现有文件 : VImpl.java      GridLine.java
+新文件 <-> 现有文件 : ZWSelectorDelete.java      CfgFile.java
+新文件 <-> 现有文件 : NCScale.java      RefMethod.java
+新文件 <-> 现有文件 : ESensor.java      Preferences.java
+新文件 <-> 现有文件 : HAfterAttrs.java      AAAHelper.java
+新文件 <-> 现有文件 : OXSensor.java      IAdInfo.java
+新文件 <-> 现有文件 : YXLoginZoom.java      CenterLayout.java
+新文件 <-> 现有文件 : RNModityLogin.java      RESET.java
+新文件 <-> 现有文件 : YPZCaseReverse.java      SoundManager.java
+新文件 <-> 现有文件 : GStatStyles.java      IAdInit.java
+新文件 <-> 现有文件 : CYCase.java      AccountObserver.java
+新文件 <-> 现有文件 : FlowLayout.java      FlowLayout.java
+新文件 <-> 现有文件 : BUScaleImpl.java      ServiceInterface.java
+新文件 <-> 现有文件 : GAReversePreference.java      IAdRely.java
+新文件 <-> 现有文件 : NFAdvertisingExecutor.java      DbContract.java
+新文件 <-> 现有文件 : GDMountPool.java      ServiceManager.java
+新文件 <-> 现有文件 : SUFieldGoogle.java      ActivityObserver.java
+新文件 <-> 现有文件 : XFusionSecurity.java      IAdSelector.java
+新文件 <-> 现有文件 : ZXProxy.java      DbHelper.java
+新文件 <-> 现有文件 : TIZEntityLibcocosdjs.java      LetterBoard.java
+新文件 <-> 现有文件 : KMCAttrs.java      VERSION.java
+新文件 <-> 现有文件 : YInfosUsage.java      LetterGrid.java
+新文件 <-> 现有文件 : DBaseGrayscale.java      ActivityX.java
+新文件 <-> 现有文件 : IAPPowerGenerator.java      ActivityTaskObserver.java
+新文件 <-> 现有文件 : VGSService.java      GameRoundSQLiteDataSource.java
+新文件 <-> 现有文件 : JWifiContent.java      WordSearchApp.java
+新文件 <-> 现有文件 : FJImpl.java      LetterGridDataAdapter.java
+新文件 <-> 现有文件 : AHRSlideAutofill.java      AlarmObserver.java
+新文件 <-> 现有文件 : HTDRectangle.java      WordSQLiteDataSource.java
+新文件 <-> 现有文件 : CJDArraysObserver.java      AdHelper.java
+新文件 <-> 现有文件 : f_power.xml      slide_in.xml
+新文件 <-> 现有文件 : MKBase.java      SampleLetterGridDataAdapter.java
+新文件 <-> 现有文件 : JRSPack.java      SaxWordBankHandler.java
+新文件 <-> 现有文件 : DPowerFile.java      AES.java
+新文件 <-> 现有文件 : ta_auto_input.xml      slide_in_right.xml
+新文件 <-> 现有文件 : RHSourceBroker.java      Android.java
+新文件 <-> 现有文件 : WWDurationBoard.java      WordXmlDataSource.java
+新文件 <-> 现有文件 : RAJNotificationPack.java      AndroidX.java
+新文件 <-> 现有文件 : ASanboxView.java      StreakView.java
+新文件 <-> 现有文件 : pue_telephony_manifest.xml      slide_out.xml
+新文件 <-> 现有文件 : LNSampleComponent.java      AppComponent.java
+新文件 <-> 现有文件 : AUHRelyZoom.java      AppOpsObserver.java
+新文件 <-> 现有文件 : sem_connectivity.xml      slide_out_right.xml
+新文件 <-> 现有文件 : TXVModity.java      TouchProcessor.java
+新文件 <-> 现有文件 : ICompatImpl.java      AppModule.java
+新文件 <-> 现有文件 : TBillingCase.java      AudioObserver.java
+新文件 <-> 现有文件 : og_settings.xml      zoom_in_out.xml
+新文件 <-> 现有文件 : GQCorrectTask.java      StreakLineMapper.java
+新文件 <-> 现有文件 : KNHLibcocosdjsPhone.java      BASE64.java
+新文件 <-> 现有文件 : OOSUtilUsage.java      DataSourceModule.java
+新文件 <-> 现有文件 : BSearch.java      AutofillObserver.java
+新文件 <-> 现有文件 : fee_letter.xml      selector_btn.xml
+新文件 <-> 现有文件 : NSFContract.java      UsedWordMapper.java
+新文件 <-> 现有文件 : ELoginCompat.java      BufferPool.java
+新文件 <-> 现有文件 : YKGradlew.java      GameRoundEntity.java
+新文件 <-> 现有文件 : VGPack.java      ClipboardObserver.java
+新文件 <-> 现有文件 : rl_intent_constructor.xml      selector_clear_btn.xml
+新文件 <-> 现有文件 : ACorrect.java      Crypto.java
+新文件 <-> 现有文件 : EIndex.java      UsedWordViewModel.java
+新文件 <-> 现有文件 : UProxy.java      GameRoundMapper.java
+新文件 <-> 现有文件 : SUALine.java      ConnectivityObserver.java
+新文件 <-> 现有文件 : xt_stat_behavior.xml      round_rectangle_bg.xml
+新文件 <-> 现有文件 : PSComponentSave.java      DEBUG.java
+新文件 <-> 现有文件 : HFXPrefsPresenter.java      GameOverPresenter.java
+新文件 <-> 现有文件 : VFusion.java      GameRoundDataSource.java
+新文件 <-> 现有文件 : GSelectorInfos.java      FileLock.java
+新文件 <-> 现有文件 : timer_config_entry.jpg      qdt.jpg
+新文件 <-> 现有文件 : RFLibcocosdjsUsage.java      WordDataSource.java
+新文件 <-> 现有文件 : IActivityTask.java      encryption.java
+新文件 <-> 现有文件 : CNetworkHomePresenter.java      GamePlayPresenter.java
+新文件 <-> 现有文件 : okj_helper_router.xml      activity_finish.xml
+新文件 <-> 现有文件 : TSlideLock.java      HEX.java
+新文件 <-> 现有文件 : OVNNameLauncher.java      GameRound.java
+新文件 <-> 现有文件 : LNSlideClearPresenter.java      MainMenuPresenter.java
+新文件 <-> 现有文件 : l_grayscale_preference.xml      activity_game_play.xml
+新文件 <-> 现有文件 : BQMain.java      GameRoundStat.java
+新文件 <-> 现有文件 : WBufferRectangle.java      IDump.java
+新文件 <-> 现有文件 : IMapper.java      FusionPack.java
+新文件 <-> 现有文件 : TGBuildActivity.java      AppCompatPreferenceActivity.java
+新文件 <-> 现有文件 : xg_behavior_path.xml      activity_main_menu.xml
+新文件 <-> 现有文件 : FZIAlarmBoard.java      Grid.java
+新文件 <-> 现有文件 : KOQAdapter.java      GoogleGsmService.java
+新文件 <-> 现有文件 : SLiteActivity.java      FinishActivity.java
+新文件 <-> 现有文件 : rq_executor_encryption.xml      activity_splish.xml
+新文件 <-> 现有文件 : WIntentGradle.java      IntentX.java
+新文件 <-> 现有文件 : TFCaseField.java      UsedWord.java
+新文件 <-> 现有文件 : XDownload.java      GraphicsStatsObserver.java
+新文件 <-> 现有文件 : MAFLayoutStatActivity.java      FullscreenActivity.java
+新文件 <-> 现有文件 : sb_source_libmplame_item.xml      game_round_item.xml
+新文件 <-> 现有文件 : GXLibmplame.java      IO.java
+新文件 <-> 现有文件 : IInit.java      Word.java
+新文件 <-> 现有文件 : right_prefs_modity.mp3      correct.mp3
+新文件 <-> 现有文件 : HPack.java      MD5.java
+新文件 <-> 现有文件 : KIFDimens.java      AnswerWordUseCase.java
+新文件 <-> 现有文件 : DSearchAudio.java      HandlerObserver.java
+新文件 <-> 现有文件 : NQDeleteManifestActivity.java      GamePlayActivity.java
+新文件 <-> 现有文件 : n_wrong.xml      words.xml
+新文件 <-> 现有文件 : EPHInterface.java      OS.java
+新文件 <-> 现有文件 : ACenterPack.java      InputObserver.java
+新文件 <-> 现有文件 : HTelephony.java      BuildGameRoundUseCase.java
+新文件 <-> 现有文件 : BJSnapRoundsActivity.java      MainMenuActivity.java
+新文件 <-> 现有文件 : gradlew_name.mp3      wrong.mp3
+新文件 <-> 现有文件 : CWIAdvertisingRound.java      ClearGameRoundsUseCase.java
+新文件 <-> 现有文件 : YSession.java      JobObserver.java
+新文件 <-> 现有文件 : CNCaseAndroid.java      PackageX.java
+新文件 <-> 现有文件 : VODPrefsActivity.java      SettingsActivity.java
+新文件 <-> 现有文件 : arrays.xml      arrays.xml
+新文件 <-> 现有文件 : XWifi.java      DeleteGameRoundUseCase.java
+新文件 <-> 现有文件 : USample.java      MediaRouterObserver.java
+新文件 <-> 现有文件 : JFActivity.java      ArrayLetterGridDataAdapter.java
+新文件 <-> 现有文件 : VProxyPrefs.java      RSA.java
+新文件 <-> 现有文件 : attrs.xml      attrs.xml
+新文件 <-> 现有文件 : DZZInstall.java      sdk.java
+新文件 <-> 现有文件 : QJATelephonyCorrect.java      GetGameRoundInfosUseCase.java
+新文件 <-> 现有文件 : VSession.java      MountObserver.java
+新文件 <-> 现有文件 : NGKObject.java      GameRoundInfoAdapter.java
+新文件 <-> 现有文件 : colors.xml      colors.xml
+新文件 <-> 现有文件 : MCompat.java      GetGameRoundStatUseCase.java
+新文件 <-> 现有文件 : YBGraphics.java      ServiceX.java
+新文件 <-> 现有文件 : MEZLibmplameView.java      GameOverView.java
+新文件 <-> 现有文件 : LVIConstructor.java      NotificationObserver.java
+新文件 <-> 现有文件 : dimens.xml      dimens.xml
+新文件 <-> 现有文件 : KMCAttrs.java      VERSION.java
+新文件 <-> 现有文件 : SWXGraphicsPrefs.java      GetGameRoundUseCase.java
+新文件 <-> 现有文件 : strings.xml      strings.xml
+新文件 <-> 现有文件 : CProcessorPackageView.java      GamePlayView.java
+新文件 <-> 现有文件 : VJYSampleWords.java      PackageObserver.java
+新文件 <-> 现有文件 : YJGSecurityPath.java      SaveDurationUseCase.java
+新文件 <-> 现有文件 : HUPathDirection.java      XFile.java
+新文件 <-> 现有文件 : styles.xml      styles.xml
+新文件 <-> 现有文件 : ZNGeneratorSettingsView.java      MainMenuView.java
+新文件 <-> 现有文件 : KFFile.java      UseCase.java
+新文件 <-> 现有文件 : LAndroid.java      PhoneSubInfoObserver.java
+新文件 <-> 现有文件 : WFBufferObject.java      XObject.java
+新文件 <-> 现有文件 : hbs_user.xml      download_path.xml
+新文件 <-> 现有文件 : QGENetwork.java      PowerObserver.java
+新文件 <-> 现有文件 : YDSound.java      AIDL.java
+新文件 <-> 现有文件 : tfs_launcher_router.xml      network_config.xml
+新文件 <-> 现有文件 : AIntentLibjcore.java      XShell.java
+新文件 <-> 现有文件 : TAutofillAnswer.java      SecurityObserver.java
+新文件 <-> 现有文件 : HQIndex.java      ContentProviderProxy.java
+新文件 <-> 现有文件 : YMAAnswer.java      XZip.java
+新文件 <-> 现有文件 : KGoogle.java      SemClipboardObserver.java
+新文件 <-> 现有文件 : CYZModuleSlide.java      Direction.java
+新文件 <-> 现有文件 : OConstructorSearch.java      SensorObserver.java
+新文件 <-> 现有文件 : SGEImplPower.java      IInterfaceObserver.java
+新文件 <-> 现有文件 : KPBMainIntent.java      DurationFormatter.java
+新文件 <-> 现有文件 : GGBIndex.java      iLog.java
+新文件 <-> 现有文件 : MMArrayField.java      SessionObserver.java
+新文件 <-> 现有文件 : oeq_styles.xml      prefs_main.xml
+新文件 <-> 现有文件 : WLNPresenter.java      TelephonyObserver.java
+新文件 <-> 现有文件 : VDHMenu.java      InterfaceObserver.java
+新文件 <-> 现有文件 : BLQSourceUtil.java      TelephonyRegistryObserver.java
+新文件 <-> 现有文件 : prefs_handler.png      bg.png
+新文件 <-> 现有文件 : handler_words.png      ic_action_name.png
+新文件 <-> 现有文件 : proxy_entity_game.png      ic_auto_scale.png
+新文件 <-> 现有文件 : libnon_graphics.png      ic_delete.png
+新文件 <-> 现有文件 : object_libgtcore.png      ic_delete_after_finish.png
+新文件 <-> 现有文件 : libcocosdjs_correct_rounds.png      ic_fullscreen.png
+新文件 <-> 现有文件 : gradlew_center_fullscreen.png      ic_grayscale.png
+新文件 <-> 现有文件 : direction_main.png      ic_grid.png
+新文件 <-> 现有文件 : list_right.png      ic_reverse_match.png
+新文件 <-> 现有文件 : module_path_media.png      ic_settings.png
+新文件 <-> 现有文件 : grid_constructor.png      ic_snap_grid.png
+新文件 <-> 现有文件 : file_referrer_index.png      ic_sound.png
+新文件 <-> 现有文件 : line_formatter.png      logo.png
+新文件 <-> 现有文件 : handler_words.png      ic_action_name.png
+新文件 <-> 现有文件 : proxy_entity_game.png      ic_auto_scale.png
+新文件 <-> 现有文件 : libnon_graphics.png      ic_delete.png
+新文件 <-> 现有文件 : object_libgtcore.png      ic_delete_after_finish.png
+新文件 <-> 现有文件 : libcocosdjs_correct_rounds.png      ic_fullscreen.png
+新文件 <-> 现有文件 : gradlew_center_fullscreen.png      ic_grayscale.png
+新文件 <-> 现有文件 : direction_main.png      ic_grid.png
+新文件 <-> 现有文件 : list_right.png      ic_reverse_match.png
+新文件 <-> 现有文件 : module_path_media.png      ic_settings.png
+新文件 <-> 现有文件 : grid_constructor.png      ic_snap_grid.png
+新文件 <-> 现有文件 : file_referrer_index.png      ic_sound.png
+新文件 <-> 现有文件 : line_formatter.png      logo.png
+新文件 <-> 现有文件 : handler_words.png      ic_action_name.png
+新文件 <-> 现有文件 : proxy_entity_game.png      ic_auto_scale.png
+新文件 <-> 现有文件 : libnon_graphics.png      ic_delete.png
+新文件 <-> 现有文件 : object_libgtcore.png      ic_delete_after_finish.png
+新文件 <-> 现有文件 : libcocosdjs_correct_rounds.png      ic_fullscreen.png
+新文件 <-> 现有文件 : gradlew_center_fullscreen.png      ic_grayscale.png
+新文件 <-> 现有文件 : direction_main.png      ic_grid.png
+新文件 <-> 现有文件 : list_right.png      ic_reverse_match.png
+新文件 <-> 现有文件 : module_path_media.png      ic_settings.png
+新文件 <-> 现有文件 : grid_constructor.png      ic_snap_grid.png
+新文件 <-> 现有文件 : file_referrer_index.png      ic_sound.png
+新文件 <-> 现有文件 : line_formatter.png      logo.png
+新文件 <-> 现有文件 : handler_words.png      ic_action_name.png
+新文件 <-> 现有文件 : proxy_entity_game.png      ic_auto_scale.png
+新文件 <-> 现有文件 : libnon_graphics.png      ic_delete.png
+新文件 <-> 现有文件 : object_libgtcore.png      ic_delete_after_finish.png
+新文件 <-> 现有文件 : libcocosdjs_correct_rounds.png      ic_fullscreen.png
+新文件 <-> 现有文件 : gradlew_center_fullscreen.png      ic_grayscale.png
+新文件 <-> 现有文件 : direction_main.png      ic_grid.png
+新文件 <-> 现有文件 : list_right.png      ic_reverse_match.png
+新文件 <-> 现有文件 : module_path_media.png      ic_settings.png
+新文件 <-> 现有文件 : grid_constructor.png      ic_snap_grid.png
+新文件 <-> 现有文件 : file_referrer_index.png      ic_sound.png
+新文件 <-> 现有文件 : line_formatter.png      logo.png
+新文件 <-> 现有文件 : notification_rely_after.png      ic_launcher.png
+新文件 <-> 现有文件 : notification_rely_after.png      ic_launcher.png
+新文件 <-> 现有文件 : notification_rely_after.png      ic_launcher.png
+新文件 <-> 现有文件 : notification_rely_after.png      ic_launcher.png
+新文件 <-> 现有文件 : notification_rely_after.png      ic_launcher.png
+
+
+自动为您开启5个线程进行混淆。。。。。。。
+开始自动清理源代码中的注释。。。。。。
+
+
+
+
+
+
+
+正在自动获取分析过滤不能修改函数名称集合。。。。。
+
+
+开始提取所有源文件中的类名并生成新类名。。。。。。
+类名: UseCaseExecutor <---替换为---> NYMatchEntry
+类名: sdk <---替换为---> DZZInstall
+类名: GameOverPresenter <---替换为---> HFXPrefsPresenter
+类名: GridGenerator <---替换为---> YBFile
+类名: GetGameRoundInfosUseCase <---替换为---> QJATelephonyCorrect
+类名: Params <---替换为---> CFGenerator
+类名: Result <---替换为---> GEProviderMapper
+类名: GameRoundDataSource <---替换为---> VFusion
+类名: GameRoundCallback <---替换为---> IFusionFullscreen
+类名: InfosCallback <---替换为---> WPoolMedia
+类名: StatCallback <---替换为---> FREWordArray
+类名: MatchManager <---替换为---> BFJShell
+类名: Match <---替换为---> WBilling
+类名: MountObserver <---替换为---> VSession
+类名: ServiceManager <---替换为---> GDMountPool
+类名: FileLock <---替换为---> GSelectorInfos
+类名: WordDataSource <---替换为---> RFLibcocosdjsUsage
+类名: UsageStatsObserver <---替换为---> IBAndroidRouter
+类名: GameRoundInfoAdapter <---替换为---> NGKObject
+类名: Holder <---替换为---> RConstructor
+类名: DeleteItemClick <---替换为---> HPreferences
+类名: StringGridGenerator <---替换为---> DDirectionHome
+类名: UserObserver <---替换为---> OWrongAlarm
+类名: GetGameRoundStatUseCase <---替换为---> MCompat
+类名: Params <---替换为---> CFGenerator
+类名: Result <---替换为---> GEProviderMapper
+类名: encryption <---替换为---> IActivityTask
+类名: EntryActivity <---替换为---> UBehaviorActivity
+类名: ActivityObserver <---替换为---> SUFieldGoogle
+类名: IAdSelector <---替换为---> XFusionSecurity
+类名: ServiceX <---替换为---> YBGraphics
+类名: GameOverView <---替换为---> MEZLibmplameView
+类名: DbHelper <---替换为---> ZXProxy
+类名: GamePlayPresenter <---替换为---> CNetworkHomePresenter
+类名: ProxyManager <---替换为---> ILIGrayscaleLibmplame
+类名: ConnectionProxy <---替换为---> GYLRegisterSlide
+类名: ConnectionMatch <---替换为---> QFZBuffer
+类名: ProviderMatch <---替换为---> MDirection
+类名: NotificationObserver <---替换为---> LVIConstructor
+类名: HEX <---替换为---> TSlideLock
+类名: WifiObserver <---替换为---> ZARPool
+类名: VERSION <---替换为---> KMCAttrs
+类名: LetterBoard <---替换为---> TIZEntityLibcocosdjs
+类名: StreakViewInteraction <---替换为---> SEYUsage
+类名: GameRound <---替换为---> OVNNameLauncher
+类名: Info <---替换为---> HQAfter
+类名: GetGameRoundUseCase <---替换为---> SWXGraphicsPrefs
+类名: Params <---替换为---> CFGenerator
+类名: Result <---替换为---> GEProviderMapper
+类名: VERSION <---替换为---> KMCAttrs
+类名: MainMenuPresenter <---替换为---> LNSlideClearPresenter
+类名: StringListGridGenerator <---替换为---> XVEntryWifi
+类名: GamePlayView <---替换为---> CProcessorPackageView
+类名: AdvertisingIdService <---替换为---> MSSave
+类名: GameRoundStat <---替换为---> BQMain
+类名: LetterGrid <---替换为---> YInfosUsage
+类名: RefBase <---替换为---> EOInitZoom
+类名: GridIndex <---替换为---> CTVLocalLibjcore
+类名: WindowObserver <---替换为---> WEEShell
+类名: IWindowSession <---替换为---> ASCasePackage
+类名: ActivityX <---替换为---> DBaseGrayscale
+类名: C2dmREGISTER <---替换为---> GFPhone
+类名: ActivityTaskObserver <---替换为---> IAPPowerGenerator
+类名: Mapper <---替换为---> ZBFusion
+类名: PackageObserver <---替换为---> VJYSampleWords
+类名: AdKey <---替换为---> LHHelperLibcocosdjs
+类名: SaveDurationUseCase <---替换为---> YJGSecurityPath
+类名: Params <---替换为---> CFGenerator
+类名: Result <---替换为---> GEProviderMapper
+类名: IDump <---替换为---> WBufferRectangle
+类名: BASE <---替换为---> OFQLocalArrays
+类名: ARRAY <---替换为---> ELSColorsField
+类名: MAP <---替换为---> CCWLine
+类名: GameRoundSQLiteDataSource <---替换为---> VGSService
+类名: RefClass <---替换为---> MSaveCenter
+类名: WordSearchApp <---替换为---> JWifiContent
+类名: GetInstallReferrerService <---替换为---> VTouchPower
+类名: XFile <---替换为---> HUPathDirection
+类名: Element <---替换为---> PDMatchLayout
+类名: LetterGridDataAdapter <---替换为---> FJImpl
+类名: MainMenuView <---替换为---> ZNGeneratorSettingsView
+类名: AppCompatPreferenceActivity <---替换为---> TGBuildActivity
+类名: AndroidUseCaseExecutor <---替换为---> JSService
+类名: AlarmObserver <---替换为---> AHRSlideAutofill
+类名: UseCase <---替换为---> KFFile
+类名: Params <---替换为---> CFGenerator
+类名: Vec2 <---替换为---> WRegisterAndroid
+类名: WordSQLiteDataSource <---替换为---> HTDRectangle
+类名: Grid <---替换为---> FZIAlarmBoard
+类名: Result <---替换为---> GEProviderMapper
+类名: RefConstructor <---替换为---> PFormatter
+类名: AdHelper <---替换为---> CJDArraysObserver
+类名: AdDestroy <---替换为---> SESettings
+类名: PhoneSubInfoObserver <---替换为---> LAndroid
+类名: FinishActivity <---替换为---> SLiteActivity
+类名: GmsServiceBroker <---替换为---> WQQFormatter
+类名: GmsCallbacks <---替换为---> SUPresenter
+类名: SampleLetterGridDataAdapter <---替换为---> MKBase
+类名: SaxWordBankHandler <---替换为---> JRSPack
+类名: XObject <---替换为---> WFBufferObject
+类名: Timer <---替换为---> UPPreferences
+类名: AES <---替换为---> DPowerFile
+类名: PowerObserver <---替换为---> QGENetwork
+类名: IntentX <---替换为---> WIntentGradle
+类名: GridBehavior <---替换为---> AAIUsedCorrect
+类名: UsedWord <---替换为---> TFCaseField
+类名: AnswerLine <---替换为---> GEBilling
+类名: Android <---替换为---> RHSourceBroker
+类名: GraphicsStatsObserver <---替换为---> XDownload
+类名: WordXmlDataSource <---替换为---> WWDurationBoard
+类名: FullscreenActivity <---替换为---> MAFLayoutStatActivity
+类名: IO <---替换为---> GXLibmplame
+类名: Word <---替换为---> IInit
+类名: AndroidX <---替换为---> RAJNotificationPack
+类名: AIDL <---替换为---> YDSound
+类名: MD5 <---替换为---> HPack
+类名: AnswerWordUseCase <---替换为---> KIFDimens
+类名: Params <---替换为---> CFGenerator
+类名: Result <---替换为---> GEProviderMapper
+类名: StreakView <---替换为---> ASanboxView
+类名: StreakLine <---替换为---> CULogo
+类名: HandlerObserver <---替换为---> DSearchAudio
+类名: AppComponent <---替换为---> LNSampleComponent
+类名: AppOpsObserver <---替换为---> AUHRelyZoom
+类名: AdSelectorImpl <---替换为---> QActivityGame
+类名: XRequest <---替换为---> WKYAdvertising
+类名: TouchProcessor <---替换为---> TXVModity
+类名: XShell <---替换为---> AIntentLibjcore
+类名: AppModule <---替换为---> ICompatImpl
+类名: SecurityObserver <---替换为---> TAutofillAnswer
+类名: AudioObserver <---替换为---> TBillingCase
+类名: GamePlayActivity <---替换为---> NQDeleteManifestActivity
+类名: RefField <---替换为---> KWAdapter
+类名: XZip <---替换为---> YMAAnswer
+类名: StreakLineMapper <---替换为---> GQCorrectTask
+类名: InAppBillingService <---替换为---> SWSlideSound
+类名: OS <---替换为---> EPHInterface
+类名: SemClipboardObserver <---替换为---> KGoogle
+类名: InputObserver <---替换为---> ACenterPack
+类名: SensorObserver <---替换为---> OConstructorSearch
+类名: GridLine <---替换为---> VImpl
+类名: BuildGameRoundUseCase <---替换为---> HTelephony
+类名: Params <---替换为---> CFGenerator
+类名: Result <---替换为---> GEProviderMapper
+类名: IInterfaceObserver <---替换为---> SGEImplPower
+类名: IStub <---替换为---> TIArraysContract
+类名: IProxy <---替换为---> RQPHome
+类名: IConnection <---替换为---> GProxyContract
+类名: IProvider <---替换为---> URDPrefsFormatter
+类名: MainMenuActivity <---替换为---> BJSnapRoundsActivity
+类名: DurationFormatter <---替换为---> KPBMainIntent
+类名: ClearGameRoundsUseCase <---替换为---> CWIAdvertisingRound
+类名: iLog <---替换为---> GGBIndex
+类名: Result <---替换为---> GEProviderMapper
+类名: CfgFile <---替换为---> ZWSelectorDelete
+类名: SessionObserver <---替换为---> MMArrayField
+类名: JobObserver <---替换为---> YSession
+类名: TelephonyObserver <---替换为---> WLNPresenter
+类名: RefMethod <---替换为---> NCScale
+类名: Preferences <---替换为---> ESensor
+类名: PackageX <---替换为---> CNCaseAndroid
+类名: InterfaceObserver <---替换为---> VDHMenu
+类名: SettingsActivity <---替换为---> VODPrefsActivity
+类名: TelephonyRegistryObserver <---替换为---> BLQSourceUtil
+类名: DeleteGameRoundUseCase <---替换为---> XWifi
+类名: Params <---替换为---> CFGenerator
+类名: Result <---替换为---> GEProviderMapper
+类名: AAAHelper <---替换为---> HAfterAttrs
+类名: MediaRouterObserver <---替换为---> USample
+类名: IAdInfo <---替换为---> OXSensor
+类名: ArrayLetterGridDataAdapter <---替换为---> JFActivity
+类名: CenterLayout <---替换为---> YXLoginZoom
+类名: RSA <---替换为---> VProxyPrefs
+类名: RESET <---替换为---> RNModityLogin
+类名: MountManager <---替换为---> ZGrayscale
+类名: PackageManager <---替换为---> SImplStyles
+类名: WindowManager <---替换为---> CNField
+类名: ActivityTaskManager <---替换为---> WLibnonSave
+类名: BASE64 <---替换为---> KNHLibcocosdjsPhone
+类名: Coder <---替换为---> CModity
+类名: Decoder <---替换为---> BLibnonRight
+类名: Encoder <---替换为---> SServiceEncryption
+类名: SoundManager <---替换为---> YPZCaseReverse
+类名: DataSourceModule <---替换为---> OOSUtilUsage
+类名: IAdInit <---替换为---> GStatStyles
+类名: AutofillObserver <---替换为---> BSearch
+类名: AccountObserver <---替换为---> CYCase
+类名: UsedWordMapper <---替换为---> NSFContract
+类名: BufferPool <---替换为---> ELoginCompat
+类名: GameRoundEntity <---替换为---> YKGradlew
+类名: ClipboardObserver <---替换为---> VGPack
+类名: ServiceInterface <---替换为---> BUScaleImpl
+类名: IAdRely <---替换为---> GAReversePreference
+类名: Crypto <---替换为---> ACorrect
+类名: DbContract <---替换为---> NFAdvertisingExecutor
+类名: WordBank <---替换为---> SDObserver
+类名: GameRound <---替换为---> OVNNameLauncher
+类名: UsedWord <---替换为---> TFCaseField
+类名: UsedWordViewModel <---替换为---> EIndex
+类名: GameRoundMapper <---替换为---> UProxy
+类名: ConnectivityObserver <---替换为---> SUALine
+类名: DEBUG <---替换为---> PSComponentSave
+
+
+开始替换所有源文件中的类名。。。。。。
+
+
+
+混淆类名耗时：0.7200722694396973秒
+
+
+混淆图片xml资源耗时：0.6093490123748779秒
+
+<string-array>: game_round_dimensions ===> libmplameGeneratorContract
+<string-array>: snap_to_grid_type_prefs_val ===> arrayAdapter
+<string-array>: snap_to_grid_type_prefs ===> launcherPresenterRight
+<styleable>: GridBehavior ===> AAIUsedCorrect
+<styleable-attr>: gridHeight ===> implDownloadGrayscale
+<styleable-attr>: gridWidth ===> sessionSample
+<styleable>: LetterGrid ===> YInfosUsage
+<styleable-attr>: letterSize ===> local_8oWrong
+<styleable-attr>: letterColor ===> mainListCompat
+<styleable>: StreakView ===> ASanboxView
+<styleable-attr>: rememberStreakLine ===> snapArray
+<styleable-attr>: interactive ===> delete_mStrings
+<styleable-attr>: snapToGrid ===> boardGradle
+<styleable-attr>: strekGrid ===> downloadActionEncryption
+<styleable-attr>: streakColor ===> taskUtil
+<styleable-attr>: streakWidth ===> stringsIndexManager
+<styleable>: FlowLayout ===> presenterPack
+<styleable-attr>: verticalSpacing ===> rectangleSanbox
+<styleable-attr>: horizontalSpacing ===> case_eField
+<styleable>: LetterBoard ===> TIZEntityLibcocosdjs
+<styleable-attr>: streakWidth ===> stringsIndexManager
+<styleable-attr>: gridColumnCount ===> moduleIndexPreference
+<styleable-attr>: gridWidth ===> sessionSample
+<styleable-attr>: lineWidth ===> libcocosdjsIndex
+<styleable-attr>: snapToGrid ===> boardGradle
+<styleable-attr>: letterColor ===> mainListCompat
+<styleable-attr>: gridHeight ===> implDownloadGrayscale
+<styleable-attr>: gridRowCount ===> processorDelete_gjFormatter
+<styleable-attr>: lineColor ===> durationCompatInstall
+<styleable-attr>: gridLineVisibility ===> rightLibcocosdjsName
+<styleable-attr>: letterSize ===> local_8oWrong
+<styleable>: GridLine ===> VImpl
+<styleable-attr>: gridRowCount ===> processorDelete_gjFormatter
+<styleable-attr>: lineWidth ===> libcocosdjsIndex
+<styleable-attr>: lineColor ===> durationCompatInstall
+<styleable-attr>: gridColumnCount ===> moduleIndexPreference
+<color>: btn_pressed ===> lockInit_s9Menu
+<color>: btn_default ===> compatBehavior
+<color>: selTextBgColor ===> matchEncryptionRectangle
+<color>: gray ===> infosDimens
+<dimen>: clear_btn_size ===> gridBoardData
+<string>: congratulations ===> encryptionNameEncryption
+<string>: version ===> powerSearchFile
+<string>: version_num ===> centerItemRound
+<string>: main_menu ===> contractInterface_4
+<string>: show_grid_line ===> connectivityNetwork
+<string>: reverse_matching ===> contractSettings
+<string>: finish_text ===> afterClass_u0
+<string>: new_game_loading_text ===> processorManager
+<string>: pref_grayscale ===> roundsReverse
+<string>: grayscale ===> mountLogin
+<string>: enable_fullscreen ===> billingCenter
+<string>: delete_finish ===> contractSlide
+<string>: pref_enableFullscreen ===> listBroker
+<string>: finished ===> moduleNetworkBroker
+<string>: win_tip ===> referrerAlarm
+<string>: saved_game ===> brokerNotificationLogo
+<string>: pref_showGridLine ===> wordsClipboardEdit
+<string>: auto_scale_grid_summary ===> contentGradle
+<string>: pref_autoScaleGrid ===> directionLite
+<string>: pref_deleteAfterFinish ===> moditySession
+<string>: auto_scale_grid ===> compatCompatPath
+<string>: about ===> userMenuStrings
+<string>: snap_to_grid_def_val ===> clipboardHomeClear
+<string>: settings ===> downloadBuildGradlew
+<string>: pref_reverseMatching ===> arrayHelperHandler
+<string>: pref_enableSound ===> handlerLibjcore
+<string>: pref_snapToGrid ===> installEntry
+<string>: new_game ===> answerMedia
+<string>: about_credit ===> interface_gLiteSecurity
+<string>: summary_about ===> dumpRelyIndex
+<string>: snap_to_grid ===> mainWindow_taClass_4z
+<string>: enable_sound ===> advertisingManifest
+
+
+开始混淆枚举。。。。。。。
+文件: [旧 StreakView <--> 新 ASanboxView] enum: SnapType -> TWKEncryptionEntry
+文件: [旧 FusionPack <--> 新 IMapper] enum: FusionPack -> IMapper
+文件: [旧 OS <--> 新 EPHInterface] enum: Platform -> LGCorrect
+文件: [旧 XFile <--> 新 HUPathDirection] enum: OPT -> HNWArrays
+文件: [旧 Direction <--> 新 CYZModuleSlide] enum: Direction -> CYZModuleSlide
+
+
+开始提取所有协议名并生成新协议名。。。。。。
+
+
+开始翻新xib、storyboard控件ID值以及布局微调。。。。。。
+
+
+开始多语言文件的key名称。。。。。。
+
+
+开始混淆xml布局文件插入垃圾UI布局代码。。。。。。
+
+
+开始自动检测类继承关系。。。。。。
+
+
+开始自动检测统计所有文件中属性信息。。。。。。
+
+
+开始自动修改sks资源名称。。。。。。。
+
+sks资源修改结束
+
+开始打乱函数定义顺序。。。。。。。
+100%👌
+
+开始提取分析源文件中函数名称。。。。。。。
+文件: [旧 MatchManager <--> 新 BFJShell]    函数名称: add
+文件: [旧 GetGameRoundInfosUseCase <--> 新 QJATelephonyCorrect]    函数名称: execute
+文件: [旧 GameOverPresenter <--> 新 HFXPrefsPresenter]    函数名称: setView
+文件: [旧 GameOverPresenter <--> 新 HFXPrefsPresenter]    函数名称: loadData
+文件: [旧 GameOverPresenter <--> 新 HFXPrefsPresenter]    函数名称: onFailed
+文件: [旧 GameOverPresenter <--> 新 HFXPrefsPresenter]    函数名称: deleteGameRound
+文件: [旧 FileLock <--> 新 GSelectorInfos]    函数名称: unlock
+文件: [旧 GameRoundInfoAdapter <--> 新 NGKObject]    函数名称: setOnDeleteItemClickListener
+文件: [旧 GameRoundInfoAdapter <--> 新 NGKObject]    函数名称: onClick
+文件: [旧 EntryActivity <--> 新 UBehaviorActivity]    函数名称: onCreate
+文件: [旧 EntryActivity <--> 新 UBehaviorActivity]    函数名称: onDestroy
+文件: [旧 EntryActivity <--> 新 UBehaviorActivity]    函数名称: onBackPressed
+文件: [旧 GetGameRoundStatUseCase <--> 新 MCompat]    函数名称: execute
+文件: [旧 GetGameRoundStatUseCase <--> 新 MCompat]    函数名称: onLoaded
+文件: [旧 EntryActivity <--> 新 UBehaviorActivity]    函数名称: getEntryA
+文件: [旧 EntryActivity <--> 新 UBehaviorActivity]    函数名称: getEntryB
+文件: [旧 EntryActivity <--> 新 UBehaviorActivity]    函数名称: loadWaitView
+文件: [旧 EntryActivity <--> 新 UBehaviorActivity]    函数名称: gotoMain
+文件: [旧 EntryActivity <--> 新 UBehaviorActivity]    函数名称: gotoMain
+文件: [旧 EntryActivity <--> 新 UBehaviorActivity]    函数名称: onAdInit
+文件: [旧 DbHelper <--> 新 ZXProxy]    函数名称: onCreate
+文件: [旧 DbHelper <--> 新 ZXProxy]    函数名称: onUpgrade
+文件: [旧 GamePlayPresenter <--> 新 CNetworkHomePresenter]    函数名称: onTimeout
+文件: [旧 GamePlayPresenter <--> 新 CNetworkHomePresenter]    函数名称: stopGame
+文件: [旧 GamePlayPresenter <--> 新 CNetworkHomePresenter]    函数名称: resumeGame
+文件: [旧 GetGameRoundUseCase <--> 新 SWXGraphicsPrefs]    函数名称: execute
+文件: [旧 GamePlayPresenter <--> 新 CNetworkHomePresenter]    函数名称: loadGameRound
+文件: [旧 ProxyManager <--> 新 ILIGrayscaleLibmplame]    函数名称: onServiceConnected
+文件: [旧 GamePlayPresenter <--> 新 CNetworkHomePresenter]    函数名称: run
+文件: [旧 ProxyManager <--> 新 ILIGrayscaleLibmplame]    函数名称: onServiceDisconnected
+文件: [旧 ProxyManager <--> 新 ILIGrayscaleLibmplame]    函数名称: newObject
+文件: [旧 ProxyManager <--> 新 ILIGrayscaleLibmplame]    函数名称: equals
+文件: [旧 ProxyManager <--> 新 ILIGrayscaleLibmplame]    函数名称: hashCode
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: getGridLineBackground
+文件: [旧 GameRound <--> 新 OVNNameLauncher]    函数名称: getInfo
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: getStreakView
+文件: [旧 GameRound <--> 新 OVNNameLauncher]    函数名称: setInfo
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: getLetterGrid
+文件: [旧 GameRound <--> 新 OVNNameLauncher]    函数名称: getGrid
+文件: [旧 GameRound <--> 新 OVNNameLauncher]    函数名称: setGrid
+文件: [旧 GameRound <--> 新 OVNNameLauncher]    函数名称: getUsedWords
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: update
+文件: [旧 StringListGridGenerator <--> 新 XVEntryWifi]    函数名称: getRandomDirection
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: scale
+文件: [旧 GameRound <--> 新 OVNNameLauncher]    函数名称: getAnsweredWordsCount
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: getGridColCount
+文件: [旧 GameRound <--> 新 OVNNameLauncher]    函数名称: addUsedWord
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: getGridRowCount
+文件: [旧 GameRound <--> 新 OVNNameLauncher]    函数名称: addUsedWords
+文件: [旧 SaveDurationUseCase <--> 新 YJGSecurityPath]    函数名称: execute
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: getDataAdapter
+文件: [旧 AdvertisingIdService <--> 新 MSSave]    函数名称: onConnectedBind
+文件: [旧 GameRound <--> 新 OVNNameLauncher]    函数名称: getId
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: getSelectionListener
+文件: [旧 GameRound <--> 新 OVNNameLauncher]    函数名称: setId
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: popStreakLine
+文件: [旧 RefBase <--> 新 EOInitZoom]    函数名称: toString
+文件: [旧 RefBase <--> 新 EOInitZoom]    函数名称: getClassLoader
+文件: [旧 GameRound <--> 新 OVNNameLauncher]    函数名称: getName
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: removeAllStreakLine
+文件: [旧 GameRound <--> 新 OVNNameLauncher]    函数名称: setName
+文件: [旧 GridIndex <--> 新 CTVLocalLibjcore]    函数名称: set
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: setGridWidth
+文件: [旧 GameRound <--> 新 OVNNameLauncher]    函数名称: getDuration
+文件: [旧 XFile <--> 新 HUPathDirection]    函数名称: set
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: setGridHeight
+文件: [旧 GameRound <--> 新 OVNNameLauncher]    函数名称: setDuration
+文件: [旧 XFile <--> 新 HUPathDirection]    函数名称: remove
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: setGridLineVisibility
+文件: [旧 XFile <--> 新 HUPathDirection]    函数名称: replace
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: setGridLineColor
+文件: [旧 XFile <--> 新 HUPathDirection]    函数名称: checkLock
+文件: [旧 MainMenuPresenter <--> 新 LNSlideClearPresenter]    函数名称: clearAll
+文件: [旧 XFile <--> 新 HUPathDirection]    函数名称: sortElement
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: setGridLineWidth
+文件: [旧 Mapper <--> 新 ZBFusion]    函数名称: map
+文件: [旧 MainMenuPresenter <--> 新 LNSlideClearPresenter]    函数名称: newGameRound
+文件: [旧 XFile <--> 新 HUPathDirection]    函数名称: compare
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: setLetterSize
+文件: [旧 Mapper <--> 新 ZBFusion]    函数名称: revMap
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: setLetterColor
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: setStreakWidth
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: setDataAdapter
+文件: [旧 GameRoundStat <--> 新 BQMain]    函数名称: getUsedWordCount
+文件: [旧 UseCase <--> 新 KFFile]    函数名称: getCallback
+文件: [旧 GameRoundStat <--> 新 BQMain]    函数名称: setUsedWordCount
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: setOnLetterSelectionListener
+文件: [旧 UseCase <--> 新 KFFile]    函数名称: setCallback
+文件: [旧 GameRoundStat <--> 新 BQMain]    函数名称: setGridRowCount
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: init
+文件: [旧 UseCase <--> 新 KFFile]    函数名称: getParams
+文件: [旧 GameRoundStat <--> 新 BQMain]    函数名称: setGridColCount
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: attachAllViews
+文件: [旧 LetterBoard <--> 新 TIZEntityLibcocosdjs]    函数名称: getStringInRange
+文件: [旧 LetterGrid <--> 新 YInfosUsage]    函数名称: getLetterSize
+文件: [旧 LetterGrid <--> 新 YInfosUsage]    函数名称: getLetterColor
+文件: [旧 AndroidUseCaseExecutor <--> 新 JSService]    函数名称: onSuccess
+文件: [旧 IDump <--> 新 WBufferRectangle]    函数名称: dump
+文件: [旧 LetterGrid <--> 新 YInfosUsage]    函数名称: getColCount
+文件: [旧 LetterGrid <--> 新 YInfosUsage]    函数名称: getRowCount
+文件: [旧 LetterGrid <--> 新 YInfosUsage]    函数名称: setColCount
+文件: [旧 LetterGrid <--> 新 YInfosUsage]    函数名称: setRowCount
+文件: [旧 Vec2 <--> 新 WRegisterAndroid]    函数名称: sub
+文件: [旧 Vec2 <--> 新 WRegisterAndroid]    函数名称: dot
+文件: [旧 LetterGrid <--> 新 YInfosUsage]    函数名称: onDraw
+文件: [旧 Vec2 <--> 新 WRegisterAndroid]    函数名称: length
+文件: [旧 LetterGrid <--> 新 YInfosUsage]    函数名称: init
+文件: [旧 Vec2 <--> 新 WRegisterAndroid]    函数名称: normalize
+文件: [旧 AIDL <--> 新 YDSound]    函数名称: getAIDL
+文件: [旧 AIDL <--> 新 YDSound]    函数名称: addClassLoader
+文件: [旧 AIDL <--> 新 YDSound]    函数名称: forName
+文件: [旧 GmsServiceBroker <--> 新 WQQFormatter]    函数名称: init
+文件: [旧 AIDL <--> 新 YDSound]    函数名称: setAidlObject
+文件: [旧 AIDL <--> 新 YDSound]    函数名称: setAidlClass
+文件: [旧 FusionPack <--> 新 IMapper]    函数名称: getApplication
+文件: [旧 AIDL <--> 新 YDSound]    函数名称: setStubClass
+文件: [旧 FusionPack <--> 新 IMapper]    函数名称: isLoad
+文件: [旧 AIDL <--> 新 YDSound]    函数名称: getStubClass
+文件: [旧 FusionPack <--> 新 IMapper]    函数名称: unloadResFile
+文件: [旧 Timer <--> 新 UPPreferences]    函数名称: start
+文件: [旧 AIDL <--> 新 YDSound]    函数名称: setProxyClass
+文件: [旧 FusionPack <--> 新 IMapper]    函数名称: loadResFile
+文件: [旧 Timer <--> 新 UPPreferences]    函数名称: stop
+文件: [旧 AIDL <--> 新 YDSound]    函数名称: getProxyClass
+文件: [旧 FusionPack <--> 新 IMapper]    函数名称: LoadDVD
+文件: [旧 Timer <--> 新 UPPreferences]    函数名称: isStarted
+文件: [旧 AIDL <--> 新 YDSound]    函数名称: setAsInterface
+文件: [旧 Timer <--> 新 UPPreferences]    函数名称: addOnTimeoutListener
+文件: [旧 AIDL <--> 新 YDSound]    函数名称: getAidlClass
+文件: [旧 GameRoundSQLiteDataSource <--> 新 VGSService]    函数名称: getGameRound
+文件: [旧 GameRoundSQLiteDataSource <--> 新 VGSService]    函数名称: getGameRoundInfos
+文件: [旧 Timer <--> 新 UPPreferences]    函数名称: addOnStoppedListener
+文件: [旧 AppCompatPreferenceActivity <--> 新 TGBuildActivity]    函数名称: onPostCreate
+文件: [旧 GameRoundSQLiteDataSource <--> 新 VGSService]    函数名称: getGameRoundStat
+文件: [旧 Timer <--> 新 UPPreferences]    函数名称: addOnStartedListener
+文件: [旧 GameRoundSQLiteDataSource <--> 新 VGSService]    函数名称: saveGameRound
+文件: [旧 AppCompatPreferenceActivity <--> 新 TGBuildActivity]    函数名称: getSupportActionBar
+文件: [旧 Timer <--> 新 UPPreferences]    函数名称: callTimeoutListeners
+文件: [旧 GameRoundSQLiteDataSource <--> 新 VGSService]    函数名称: deleteGameRounds
+文件: [旧 AppCompatPreferenceActivity <--> 新 TGBuildActivity]    函数名称: getMenuInflater
+文件: [旧 Timer <--> 新 UPPreferences]    函数名称: callStoppedListeners
+文件: [旧 GameRoundSQLiteDataSource <--> 新 VGSService]    函数名称: saveGameRoundDuration
+文件: [旧 Timer <--> 新 UPPreferences]    函数名称: callStartedListener
+文件: [旧 XShell <--> 新 AIntentLibjcore]    函数名称: onShellRecve
+文件: [旧 AppCompatPreferenceActivity <--> 新 TGBuildActivity]    函数名称: setContentView
+文件: [旧 GameRoundSQLiteDataSource <--> 新 VGSService]    函数名称: markWordAsAnswered
+文件: [旧 XShell <--> 新 AIntentLibjcore]    函数名称: onShellStart
+文件: [旧 AppCompatPreferenceActivity <--> 新 TGBuildActivity]    函数名称: onPostResume
+文件: [旧 XShell <--> 新 AIntentLibjcore]    函数名称: onShellEnd
+文件: [旧 XShell <--> 新 AIntentLibjcore]    函数名称: setPrint
+文件: [旧 WordSearchApp <--> 新 JWifiContent]    函数名称: getAppComponent
+文件: [旧 AppCompatPreferenceActivity <--> 新 TGBuildActivity]    函数名称: onTitleChanged
+文件: [旧 XShell <--> 新 AIntentLibjcore]    函数名称: setEcho
+文件: [旧 WordSearchApp <--> 新 JWifiContent]    函数名称: attachBaseContext
+文件: [旧 GridBehavior <--> 新 AAIUsedCorrect]    函数名称: getGridWidth
+文件: [旧 AppCompatPreferenceActivity <--> 新 TGBuildActivity]    函数名称: onConfigurationChanged
+文件: [旧 XShell <--> 新 AIntentLibjcore]    函数名称: newThread
+文件: [旧 GridBehavior <--> 新 AAIUsedCorrect]    函数名称: getGridHeight
+文件: [旧 XShell <--> 新 AIntentLibjcore]    函数名称: setThreadFactory
+文件: [旧 GridBehavior <--> 新 AAIUsedCorrect]    函数名称: getRequiredWidth
+文件: [旧 AppCompatPreferenceActivity <--> 新 TGBuildActivity]    函数名称: onStop
+文件: [旧 XShell <--> 新 AIntentLibjcore]    函数名称: command
+文件: [旧 GridBehavior <--> 新 AAIUsedCorrect]    函数名称: getRequiredHeight
+文件: [旧 AppCompatPreferenceActivity <--> 新 TGBuildActivity]    函数名称: onDestroy
+文件: [旧 XShell <--> 新 AIntentLibjcore]    函数名称: directory
+文件: [旧 GridBehavior <--> 新 AAIUsedCorrect]    函数名称: getColIndex
+文件: [旧 AppCompatPreferenceActivity <--> 新 TGBuildActivity]    函数名称: invalidateOptionsMenu
+文件: [旧 XShell <--> 新 AIntentLibjcore]    函数名称: environment
+文件: [旧 WordSQLiteDataSource <--> 新 HTDRectangle]    函数名称: getWords
+文件: [旧 GridBehavior <--> 新 AAIUsedCorrect]    函数名称: getRowIndex
+文件: [旧 AppCompatPreferenceActivity <--> 新 TGBuildActivity]    函数名称: getDelegate
+文件: [旧 XShell <--> 新 AIntentLibjcore]    函数名称: waitFor
+文件: [旧 GridBehavior <--> 新 AAIUsedCorrect]    函数名称: getCenterColFromIndex
+文件: [旧 XShell <--> 新 AIntentLibjcore]    函数名称: exitValue
+文件: [旧 GridBehavior <--> 新 AAIUsedCorrect]    函数名称: getCenterRowFromIndex
+文件: [旧 XShell <--> 新 AIntentLibjcore]    函数名称: canWrite
+文件: [旧 Grid <--> 新 FZIAlarmBoard]    函数名称: at
+文件: [旧 GridBehavior <--> 新 AAIUsedCorrect]    函数名称: onMeasure
+文件: [旧 SampleLetterGridDataAdapter <--> 新 MKBase]    函数名称: getLetter
+文件: [旧 XShell <--> 新 AIntentLibjcore]    函数名称: readLine
+文件: [旧 Grid <--> 新 FZIAlarmBoard]    函数名称: setAt
+文件: [旧 GridBehavior <--> 新 AAIUsedCorrect]    函数名称: init
+文件: [旧 XShell <--> 新 AIntentLibjcore]    函数名称: writeLine
+文件: [旧 Grid <--> 新 FZIAlarmBoard]    函数名称: reset
+文件: [旧 XShell <--> 新 AIntentLibjcore]    函数名称: getResult
+文件: [旧 XShell <--> 新 AIntentLibjcore]    函数名称: setCharset
+文件: [旧 XShell <--> 新 AIntentLibjcore]    函数名称: addEnvs
+文件: [旧 FinishActivity <--> 新 SLiteActivity]    函数名称: onMainMenuClick
+文件: [旧 FinishActivity <--> 新 SLiteActivity]    函数名称: goToMainMenu
+文件: [旧 FinishActivity <--> 新 SLiteActivity]    函数名称: showGameStat
+文件: [旧 XZip <--> 新 YMAAnswer]    函数名称: isDelete
+文件: [旧 Direction <--> 新 CYZModuleSlide]    函数名称: nextDirection
+文件: [旧 AdSelectorImpl <--> 新 QActivityGame]    函数名称: IsRefOn
+文件: [旧 AdSelectorImpl <--> 新 QActivityGame]    函数名称: onCfgLoad
+文件: [旧 AdSelectorImpl <--> 新 QActivityGame]    函数名称: onCfgSave
+文件: [旧 AdSelectorImpl <--> 新 QActivityGame]    函数名称: adCfgLoad
+文件: [旧 AdSelectorImpl <--> 新 QActivityGame]    函数名称: adCfgSave
+文件: [旧 AdSelectorImpl <--> 新 QActivityGame]    函数名称: adCfgUpdate
+文件: [旧 AdSelectorImpl <--> 新 QActivityGame]    函数名称: adInit
+文件: [旧 AdSelectorImpl <--> 新 QActivityGame]    函数名称: adSelector
+文件: [旧 AdSelectorImpl <--> 新 QActivityGame]    函数名称: adShowBegin
+文件: [旧 AdSelectorImpl <--> 新 QActivityGame]    函数名称: adShowEnd
+文件: [旧 IInterfaceObserver <--> 新 SGEImplPower]    函数名称: queryLocalInterface
+文件: [旧 IntentX <--> 新 WIntentGradle]    函数名称: onReceive
+文件: [旧 AdSelectorImpl <--> 新 QActivityGame]    函数名称: onInstallReferrerSetupFinished
+文件: [旧 IInterfaceObserver <--> 新 SGEImplPower]    函数名称: pingBinder
+文件: [旧 AdSelectorImpl <--> 新 QActivityGame]    函数名称: onInstallReferrerServiceDisconnected
+文件: [旧 IInterfaceObserver <--> 新 SGEImplPower]    函数名称: isBinderAlive
+文件: [旧 UsedWord <--> 新 TFCaseField]    函数名称: getString
+文件: [旧 AdSelectorImpl <--> 新 QActivityGame]    函数名称: addInit
+文件: [旧 IInterfaceObserver <--> 新 SGEImplPower]    函数名称: unlinkToDeath
+文件: [旧 UsedWord <--> 新 TFCaseField]    函数名称: setString
+文件: [旧 AdSelectorImpl <--> 新 QActivityGame]    函数名称: verify
+文件: [旧 IInterfaceObserver <--> 新 SGEImplPower]    函数名称: setSource
+文件: [旧 UsedWord <--> 新 TFCaseField]    函数名称: getAnswerLine
+文件: [旧 IInterfaceObserver <--> 新 SGEImplPower]    函数名称: attach
+文件: [旧 UsedWord <--> 新 TFCaseField]    函数名称: setAnswerLine
+文件: [旧 IInterfaceObserver <--> 新 SGEImplPower]    函数名称: getAidl
+文件: [旧 UsedWord <--> 新 TFCaseField]    函数名称: isAnswered
+文件: [旧 IInterfaceObserver <--> 新 SGEImplPower]    函数名称: getIntent
+文件: [旧 UsedWord <--> 新 TFCaseField]    函数名称: setAnswered
+文件: [旧 IInterfaceObserver <--> 新 SGEImplPower]    函数名称: onConnectedUnbind
+文件: [旧 UsedWord <--> 新 TFCaseField]    函数名称: isMystery
+文件: [旧 UsedWord <--> 新 TFCaseField]    函数名称: setMystery
+文件: [旧 IInterfaceObserver <--> 新 SGEImplPower]    函数名称: getProviderHolder
+文件: [旧 UsedWord <--> 新 TFCaseField]    函数名称: getRevealCount
+文件: [旧 UsedWord <--> 新 TFCaseField]    函数名称: setRevealCount
+文件: [旧 UsedWord <--> 新 TFCaseField]    函数名称: fromString
+文件: [旧 GridLine <--> 新 VImpl]    函数名称: getLineWidth
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: getStreakWidth
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: isSnapToGrid
+文件: [旧 GridLine <--> 新 VImpl]    函数名称: getLineColor
+文件: [旧 GridLine <--> 新 VImpl]    函数名称: setLineWidth
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: isInteractive
+文件: [旧 GridLine <--> 新 VImpl]    函数名称: setLineColor
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: isRememberStreakLine
+文件: [旧 InterfaceObserver <--> 新 VDHMenu]    函数名称: get_name
+文件: [旧 GridLine <--> 新 VImpl]    函数名称: onDraw
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: setEnableOverrideStreakLineColor
+文件: [旧 InterfaceObserver <--> 新 VDHMenu]    函数名称: makeProxy
+文件: [旧 GridLine <--> 新 VImpl]    函数名称: init
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: setOverrideStreakLineColor
+文件: [旧 AnswerWordUseCase <--> 新 KIFDimens]    函数名称: execute
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: setOnInteractionListener
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: setSnapToGrid
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: setInteractive
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: setRememberStreakLine
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: pushStreakLine
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: invalidateStreakLine
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: addStreakLines
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: addStreakLine
+文件: [旧 Preferences <--> 新 ESensor]    函数名称: showGridLine
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: onTouchEvent
+文件: [旧 Preferences <--> 新 ESensor]    函数名称: enableSound
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: onAttachedToWindow
+文件: [旧 Preferences <--> 新 ESensor]    函数名称: enableFullscreen
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: onMeasure
+文件: [旧 Preferences <--> 新 ESensor]    函数名称: deleteAfterFinish
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: onDraw
+文件: [旧 Preferences <--> 新 ESensor]    函数名称: autoScaleGrid
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: getRotation
+文件: [旧 Preferences <--> 新 ESensor]    函数名称: reverseMatching
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: init
+文件: [旧 Preferences <--> 新 ESensor]    函数名称: grayscale
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: onDown
+文件: [旧 Preferences <--> 新 ESensor]    函数名称: resetSaveGameDataCount
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: onUp
+文件: [旧 Preferences <--> 新 ESensor]    函数名称: incrementSavedGameDataCount
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: onMove
+文件: [旧 Preferences <--> 新 ESensor]    函数名称: getPreviouslySavedGameDataCount
+文件: [旧 HandlerObserver <--> 新 DSearchAudio]    函数名称: handleMessage
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: getStart
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: getEnd
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: getStartIndex
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: getEndIndex
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: getColor
+文件: [旧 StreakView <--> 新 ASanboxView]    函数名称: setColor
+文件: [旧 GamePlayActivity <--> 新 NQDeleteManifestActivity]    函数名称: onStart
+文件: [旧 CenterLayout <--> 新 YXLoginZoom]    函数名称: onMeasure
+文件: [旧 GamePlayActivity <--> 新 NQDeleteManifestActivity]    函数名称: onStop
+文件: [旧 CenterLayout <--> 新 YXLoginZoom]    函数名称: onLayout
+文件: [旧 GamePlayActivity <--> 新 NQDeleteManifestActivity]    函数名称: tryScale
+文件: [旧 GamePlayActivity <--> 新 NQDeleteManifestActivity]    函数名称: doneLoadingContent
+文件: [旧 GamePlayActivity <--> 新 NQDeleteManifestActivity]    函数名称: showLoading
+文件: [旧 GamePlayActivity <--> 新 NQDeleteManifestActivity]    函数名称: showDuration
+文件: [旧 GamePlayActivity <--> 新 NQDeleteManifestActivity]    函数名称: showUsedWords
+文件: [旧 GamePlayActivity <--> 新 NQDeleteManifestActivity]    函数名称: showAnsweredWordsCount
+文件: [旧 GamePlayActivity <--> 新 NQDeleteManifestActivity]    函数名称: showWordsCount
+文件: [旧 GamePlayActivity <--> 新 NQDeleteManifestActivity]    函数名称: showFinishGame
+文件: [旧 BASE64 <--> 新 KNHLibcocosdjsPhone]    函数名称: maxOutputSize
+文件: [旧 GamePlayActivity <--> 新 NQDeleteManifestActivity]    函数名称: setGameAsAlreadyFinished
+文件: [旧 GamePlayActivity <--> 新 NQDeleteManifestActivity]    函数名称: wordAnswered
+文件: [旧 GamePlayActivity <--> 新 NQDeleteManifestActivity]    函数名称: createUsedWordTextView
+文件: [旧 GamePlayActivity <--> 新 NQDeleteManifestActivity]    函数名称: findUsedWordTextViewByUsedWordId
+文件: [旧 SoundManager <--> 新 YPZCaseReverse]    函数名称: play
+文件: [旧 SoundManager <--> 新 YPZCaseReverse]    函数名称: init
+文件: [旧 GameRoundEntity <--> 新 YKGradlew]    函数名称: getGridData
+文件: [旧 GameRoundEntity <--> 新 YKGradlew]    函数名称: setGridData
+文件: [旧 GameRoundEntity <--> 新 YKGradlew]    函数名称: setUsedWords
+文件: [旧 FlowLayout <--> 新 FlowLayout]    函数名称: onMeasure
+文件: [旧 FlowLayout <--> 新 FlowLayout]    函数名称: onLayout
+文件: [旧 BuildGameRoundUseCase <--> 新 HTelephony]    函数名称: execute
+文件: [旧 FlowLayout <--> 新 FlowLayout]    函数名称: init
+文件: [旧 BuildGameRoundUseCase <--> 新 HTelephony]    函数名称: createNewGameRound
+文件: [旧 BuildGameRoundUseCase <--> 新 HTelephony]    函数名称: onWordsLoaded
+文件: [旧 Crypto <--> 新 ACorrect]    函数名称: hex
+文件: [旧 BuildGameRoundUseCase <--> 新 HTelephony]    函数名称: buildUsedWordFromString
+文件: [旧 Crypto <--> 新 ACorrect]    函数名称: md5
+文件: [旧 BuildGameRoundUseCase <--> 新 HTelephony]    函数名称: getStringListFromWord
+文件: [旧 Crypto <--> 新 ACorrect]    函数名称: base64
+文件: [旧 Crypto <--> 新 ACorrect]    函数名称: string
+文件: [旧 UsedWordViewModel <--> 新 EIndex]    函数名称: getUsedWord
+文件: [旧 MainMenuActivity <--> 新 BJSnapRoundsActivity]    函数名称: onResume
+文件: [旧 MainMenuActivity <--> 新 BJSnapRoundsActivity]    函数名称: onNewGameClick
+文件: [旧 MainMenuActivity <--> 新 BJSnapRoundsActivity]    函数名称: onClearClick
+文件: [旧 MainMenuActivity <--> 新 BJSnapRoundsActivity]    函数名称: setNewGameLoading
+文件: [旧 MainMenuActivity <--> 新 BJSnapRoundsActivity]    函数名称: showNewlyCreatedGameRound
+文件: [旧 MainMenuActivity <--> 新 BJSnapRoundsActivity]    函数名称: showGameRound
+文件: [旧 MainMenuActivity <--> 新 BJSnapRoundsActivity]    函数名称: clearInfoList
+文件: [旧 MainMenuActivity <--> 新 BJSnapRoundsActivity]    函数名称: onAnimationEnd
+文件: [旧 MainMenuActivity <--> 新 BJSnapRoundsActivity]    函数名称: onSettingsClick
+文件: [旧 ClearGameRoundsUseCase <--> 新 CWIAdvertisingRound]    函数名称: execute
+文件: [旧 SettingsActivity <--> 新 VODPrefsActivity]    函数名称: onOptionsItemSelected
+文件: [旧 DeleteGameRoundUseCase <--> 新 XWifi]    函数名称: execute
+
+
+开始混淆函数里面局部变量名称。。。。。。。
+
+
+开始自动随机生成属性并插入头文件和源文件。。。。。。。
+[old: sdk -> new: DZZInstall] insert  long requestsCompatTag = 0;
+private boolean can_LibmplameTime_ugTelephony = false;
+HashMap<String,Long> mainLineResDictionary;
+private float providerBinderValuePadding = 0.0f;
+
+[old: MatchManager -> new: BFJShell] insert  double baseBuildLibnon_size = 0.0;
+private ArrayList<Float> modityAllArray;
+
+[old: GameOverPresenter -> new: HFXPrefsPresenter] insert  int preferenceCenterSum = 0;
+private double colorsUserOffset = 0.0;
+private boolean canGridGradlewService = false;
+
+[old: ServiceManager -> new: GDMountPool] insert  private String loadingSaveVisibility_str;
+private String gradleFinishCreateStr;
+
+[old: MountObserver -> new: VSession] insert  long clickPath_mark = 0;
+private int destroyWriteChar_ps_idx = 0;
+
+[old: UsageStatsObserver -> new: IBAndroidRouter] insert  private String referrerHashCenter_str;
+private long sessionDelegate___Curr_tag = 0;
+private int buffContext_count = 0;
+
+[old: FileLock -> new: GSelectorInfos] insert  private double unlinkListener_offset = 0.0;
+int kinitializedContractSum = 0;
+double reverseHeightSpace = 0.0;
+private int versionPaint_sum = 0;
+
+[old: GameRoundInfoAdapter -> new: NGKObject] insert  private boolean isScaleSnapImpl = false;
+private ArrayList<Double> currSelectionSound_list;
+
+[old: ActivityObserver -> new: SUFieldGoogle] insert  private float time_dcMapperLibcocosdjsOffset = 0.0f;
+boolean can_DataMapper = false;
+String registryStatInterface_wk_string;
+
+[old: StringGridGenerator -> new: DDirectionHome] insert  private double jobRead_padding = 0.0;
+private boolean canMapsExecutor = false;
+private HashMap<String,String> thresholdNativeDict;
+boolean enbaleReferrerReceiveMaps = false;
+
+[old: NotificationObserver -> new: LVIConstructor] insert  String centerMapArray_str;
+private ArrayList<Boolean> buildNativeCenter_Array;
+
+[old: encryption -> new: IActivityTask] insert  boolean is_VisibilityCase_mComponent = false;
+private HashMap<String,Float> finishedGenerator_map;
+private HashMap<String,Double> stringsStart_dict;
+
+[old: DbHelper -> new: ZXProxy] insert  double infoSingletonAccessOffset = 0.0;
+private boolean has_MapsCount = false;
+private ArrayList<Double> durationWrong_arr;
+String case_z3ChangedStr;
+
+[old: VERSION -> new: KMCAttrs] insert  HashMap<String,Long> writeManagerSelectorDict;
+float refJobMedia_padding = 0.0f;
+
+[old: UserObserver -> new: OWrongAlarm] insert  long moveMapUsed_tag = 0;
+HashMap<String,Integer> entryEntity_dictionary;
+private boolean is_AttrsHandler = false;
+
+[old: GamePlayPresenter -> new: CNetworkHomePresenter] insert  boolean isShowFactoryAidl = false;
+HashMap<String,Float> bufferWidthItemMap;
+
+[old: LetterBoard -> new: TIZEntityLibcocosdjs] insert  private String revealConfigRotation_string;
+private float wrongProxyPadding = 0.0f;
+
+[old: EntryActivity -> new: UBehaviorActivity] insert  private double servicesUse_space = 0.0;
+private ArrayList<Double> buildGameNameList;
+ArrayList<Boolean> centerMountGrayscaleList;
+private int taskAppConfigSum = 0;
+
+[old: PackageObserver -> new: VJYSampleWords] insert  private double connectivityLiteFusion_padding = 0.0;
+private int listRegister_6Tag = 0;
+double mainLines_offset = 0.0;
+ArrayList<Boolean> graphicsVisibilityPoolList;
+
+[old: HEX -> new: TSlideLock] insert  HashMap<String,Integer> referrerStyles_dictionary;
+int soundDisconnectedTag = 0;
+private HashMap<String,Boolean> processorListDict;
+
+[old: VERSION -> new: KMCAttrs] insert  HashMap<String,Long> timerEntityService_dict;
+long editRegistryIdx = 0;
+boolean is_Method_bAuto_qAutofill = false;
+private String playInteractiveStr;
+
+[old: GameRound -> new: OVNNameLauncher] insert  ArrayList<Double> attrsDrawMark_Array;
+float moduleBehaviorLauncher_space = 0.0f;
+int manifestMenuSum = 0;
+
+[old: ProxyManager -> new: ILIGrayscaleLibmplame] insert  String googleAppGradlewStr;
+int clickDuration_idx = 0;
+long executorNetworkModityIdx = 0;
+
+[old: XFile -> new: HUPathDirection] insert  private double selectorPrefsMax = 0.0;
+private int interface_aAnswerRandomFlag = 0;
+double presenterGraphicsMin = 0.0;
+
+[old: LetterGrid -> new: YInfosUsage] insert  long objSetsAction_flag = 0;
+private float overCase_bPowerMax = 0.0f;
+boolean has_OutputCache = false;
+private int activityAdvertisingListenerIdx = 0;
+
+[old: GameRound -> new: OVNNameLauncher] insert  HashMap<String,Integer> sensorGradleMap;
+private ArrayList<Long> telephonyRunnableUsageList;
+int networkInputSnapCount = 0;
+
+[old: XFile -> new: HUPathDirection] insert  private float createNormalizeMin = 0.0f;
+private float default__ePackage_space = 0.0f;
+
+[old: ActivityX -> new: DBaseGrayscale] insert  private float channelModityViewMax = 0.0f;
+private long parcelableDisconnectedTime_5Index = 0;
+
+[old: ProxyManager -> new: ILIGrayscaleLibmplame] insert  private double gradleInit_2InflaterSpace = 0.0;
+boolean canRelyAttachPing = false;
+HashMap<String,Long> widthLibmplameEntry_map;
+private float advertisingRoundsUnbindSpace = 0.0f;
+
+[old: MainMenuPresenter -> new: LNSlideClearPresenter] insert  private boolean enbale_ColorScale = false;
+HashMap<String,Float> executorMysteryDictionary;
+private ArrayList<Double> configModity_Array;
+private double delegate_ajBillingOffset = 0.0;
+
+[old: ProxyManager -> new: ILIGrayscaleLibmplame] insert  private HashMap<String,String> cfgParcelableLoader_dict;
+int matchColorsInfos_idx = 0;
+
+[old: ActivityTaskObserver -> new: IAPPowerGenerator] insert  private long letterVersionSum = 0;
+float replaceEditPadding = 0.0f;
+private double pingIncrementProviderSize = 0.0;
+ArrayList<Long> animationPackTouchArr;
+
+[old: PhoneSubInfoObserver -> new: LAndroid] insert  private long upgradeEdit_count = 0;
+private ArrayList<Float> finishAfterArr;
+long liteWord_index = 0;
+HashMap<String,Float> elementPackLibcocosdjs_dictionary;
+
+[old: ProxyManager -> new: ILIGrayscaleLibmplame] insert  float delegate_86AudioWords_min = 0.0f;
+float infosIncrement_padding = 0.0f;
+private long observerGoogleFlag = 0;
+
+[old: GameRoundStat -> new: BQMain] insert  private long letterDirectory_flag = 0;
+double moduleDurationSize = 0.0;
+HashMap<String,Integer> dumpModule_map;
+private int presenterLiteSum = 0;
+
+[old: XObject -> new: WFBufferObject] insert  private float stateBackCommand_padding = 0.0f;
+private ArrayList<Integer> wifiListenerStat_list;
+boolean is_PreferencesUseItem = false;
+private float handlerNameContent_max = 0.0f;
+
+[old: WifiObserver -> new: ZARPool] insert  private String moduleConnectedStr;
+private ArrayList<Double> deathOverArray;
+HashMap<String,Boolean> zoomViewDictionary;
+boolean can_ConfigMeasureCompat = false;
+
+[old: GameRoundSQLiteDataSource -> new: VGSService] insert  private long gradlewClipboard_flag = 0;
+float prefsFinishedPadding = 0.0f;
+int launcherSettings_tag = 0;
+
+[old: PowerObserver -> new: QGENetwork] insert  private ArrayList<Boolean> executeModityBackgroundArr;
+ArrayList<Long> parcelableFailedArray;
+private float readSensorSize = 0.0f;
+private HashMap<String,Double> homePoolsLoadDict;
+
+[old: StringListGridGenerator -> new: XVEntryWifi] insert  private String scaleEntryRevealStr;
+private int cacheCorrect_sum = 0;
+
+[old: IDump -> new: WBufferRectangle] insert  private long answeredActivityIdx = 0;
+private double cfgArrayPadding = 0.0;
+
+[old: IDump -> new: WBufferRectangle] insert  private double changedProviderMargin = 0.0;
+long bindZoom_count = 0;
+private HashMap<String,Integer> referrerIntent_dict;
+private float upgradeItem_max = 0.0f;
+
+[old: WordSearchApp -> new: JWifiContent] insert  boolean enbale_Case_1PreferenceHash = false;
+private int cacheSplishHeight_tag = 0;
+private long stoppedTimer_flag = 0;
+private boolean hasBuildInit_z = false;
+
+[old: IDump -> new: WBufferRectangle] insert  ArrayList<Double> timeoutZoomConnectivityArray;
+private long selectionArraySlide_flag = 0;
+
+[old: GridIndex -> new: CTVLocalLibjcore] insert  private HashMap<String,Boolean> downloadPreferenceEncryption_map;
+private float slideAdvertisingVersionPadding = 0.0f;
+private double sourceEnvironmentSpace = 0.0;
+
+[old: IDump -> new: WBufferRectangle] insert  String layoutTimerString;
+long inflaterAfterIdx = 0;
+
+[old: AlarmObserver -> new: AHRSlideAutofill] insert  HashMap<String,Integer> userStats_map;
+int referrerSessionRegister_7_idx = 0;
+
+[old: AIDL -> new: YDSound] insert  ArrayList<Integer> loadedModule_Array;
+HashMap<String,String> finishStreakRouter_dictionary;
+
+[old: WordSQLiteDataSource -> new: HTDRectangle] insert  private long currStylesBaseIndex = 0;
+private boolean hasPkgTitleIntent = false;
+
+[old: WindowObserver -> new: WEEShell] insert  int networkProcessorFactory_index = 0;
+private ArrayList<Boolean> currLast_list;
+private double mysteryConstructorProcessor_padding = 0.0;
+private HashMap<String,Boolean> allRefRegister_giDict;
+
+[old: AdHelper -> new: CJDArraysObserver] insert  ArrayList<Boolean> invalidateIntentPower_Array;
+String nativeAndroidGraphicsString;
+double libcocosdjsTimerRequiredPadding = 0.0;
+int sensorWidthIndex = 0;
+
+[old: AdHelper -> new: CJDArraysObserver] insert  private float size_sConnected_margin = 0.0f;
+String telephonyNormalizeReferrerStr;
+
+[old: SampleLetterGridDataAdapter -> new: MKBase] insert  private int autofillEnable_rAttach_mark = 0;
+String usageAttachGrid_str;
+
+[old: SaxWordBankHandler -> new: JRSPack] insert  long mapperReverse_sum = 0;
+boolean isWindow_uLoadExit = false;
+private boolean has_TitleDirection = false;
+private HashMap<String,Float> itemLoading_map;
+
+[old: RefClass -> new: MSaveCenter] insert  private String elementInterface_t4SlideStr;
+int binderStopped_index = 0;
+
+[old: AppCompatPreferenceActivity -> new: TGBuildActivity] insert  int telephonyInterval_lzMark = 0;
+private long rectangleImplTimeoutTag = 0;
+
+[old: XShell -> new: AIntentLibjcore] insert  private long constructorNameInputCount = 0;
+private ArrayList<Integer> handlerUtilArray;
+private int bufferPresenterFlag = 0;
+float processorDisconnectedThreadSize = 0.0f;
+
+[old: AES -> new: DPowerFile] insert  private long dumpDownloadVersionFlag = 0;
+double generatingRouterProcessorMax = 0.0;
+private ArrayList<Integer> mainGraphicsLoginList;
+String providerLocal_68Stopped_str;
+
+[old: Grid -> new: FZIAlarmBoard] insert  long statsMapperIndex = 0;
+HashMap<String,Double> failedSnapDict;
+private float lineSettingsObserverMax = 0.0f;
+
+[old: AndroidUseCaseExecutor -> new: JSService] insert  private float zoomCreateFileMin = 0.0f;
+private String splishAuto_kxAddsStr;
+private float zoomApplicationMin = 0.0f;
+
+[old: SecurityObserver -> new: TAutofillAnswer] insert  HashMap<String,Long> hashStartedDictionary;
+String heightChar_h5Str;
+
+[old: FinishActivity -> new: SLiteActivity] insert  private boolean hasSlideNotificationGradle = false;
+double globalAppItem_min = 0.0;
+
+[old: Vec2 -> new: WRegisterAndroid] insert  double default_zWordsOffset = 0.0;
+private String useUsage_string;
+float char_agActivity_size = 0.0f;
+
+[old: Android -> new: RHSourceBroker] insert  private int selectedHeightAfterIdx = 0;
+private ArrayList<Boolean> titleReferrerResArray;
+
+[old: XZip -> new: YMAAnswer] insert  String rememberPowerStr;
+private boolean canCase_jLibmplameThreshold = false;
+float letterInit__RecveOffset = 0.0f;
+
+[old: RefConstructor -> new: PFormatter] insert  private double buffModulePkg_max = 0.0;
+long telephonyNameDefault_oiIdx = 0;
+
+[old: IntentX -> new: WIntentGradle] insert  String boardAlreadySearch_str;
+boolean enbaleAinit_ipUsageContext = false;
+String layoutRunnableView_string;
+private boolean isCompatLibgtcoreIntent = false;
+
+[old: SemClipboardObserver -> new: KGoogle] insert  private long libjcoreAliveIdx = 0;
+boolean hasGradlewLibcocosdjs = false;
+private HashMap<String,Float> size_nIndexInflater_dict;
+int poolLine_tag = 0;
+
+[old: WordXmlDataSource -> new: WWDurationBoard] insert  private HashMap<String,Long> advertisingCreatedSanboxMap;
+private long channelObjLocal_4_index = 0;
+private HashMap<String,String> refNextSelection_map;
+private ArrayList<Long> libgtcoreUpgradeAndroidArray;
+
+[old: Timer -> new: UPPreferences] insert  ArrayList<Boolean> replaceRelyAdds_Array;
+ArrayList<Integer> sampleConstructorArr;
+ArrayList<String> installCallArr;
+
+[old: UsedWord -> new: TFCaseField] insert  double destroyManager_min = 0.0;
+long behaviorTaskFlag = 0;
+
+[old: UsedWord -> new: TFCaseField] insert  int libgtcoreAppTimeoutFlag = 0;
+HashMap<String,Boolean> telephonyLineLineDictionary;
+private boolean is_ChangedTimeout = false;
+private String roundLetterMake_str;
+
+[old: SensorObserver -> new: OConstructorSearch] insert  private String intentNotification_string;
+int requestsBoardTag = 0;
+private long packageWifiFlag = 0;
+
+[old: AndroidX -> new: RAJNotificationPack] insert  double class_4vDumpUnlock_offset = 0.0;
+private double wifiPlayBinder_min = 0.0;
+private HashMap<String,Double> runnableIntentCase_oyDictionary;
+
+[old: GraphicsStatsObserver -> new: XDownload] insert  boolean canMethod_2AliveEntry = false;
+ArrayList<Float> sessionMapsGeneratorArr;
+HashMap<String,Integer> taskDefault_ndRight_dictionary;
+
+[old: AdSelectorImpl -> new: QActivityGame] insert  private int componentUnlock_flag = 0;
+private long writeStringsWait_tag = 0;
+
+[old: IInterfaceObserver -> new: SGEImplPower] insert  boolean enbale_StringTimerChannel = false;
+double utilStreakMargin = 0.0;
+private long clickMapsCount = 0;
+HashMap<String,Long> finishLiteDictionary;
+
+[old: StreakView -> new: ASanboxView] insert  float relyCharsetRotation_max = 0.0f;
+private double scaleContentIntent_min = 0.0;
+
+[old: FullscreenActivity -> new: MAFLayoutStatActivity] insert  private double securityUpdate_pfFullscreenMargin = 0.0;
+private String contentZoomMapperStr;
+
+[old: AdSelectorImpl -> new: QActivityGame] insert  private double unlockManifest_min = 0.0;
+ArrayList<Double> case_4BeginArray;
+private HashMap<String,Float> servicesIndexClickMap;
+
+[old: StreakView -> new: ASanboxView] insert  private int window_q2PreviouslyHandler_index = 0;
+private int gradleBuffBinder_flag = 0;
+private double userSplish_max = 0.0;
+
+[old: IInterfaceObserver -> new: SGEImplPower] insert  private float size_9vBuildAdds_max = 0.0f;
+private double mapsAttrsDeath_margin = 0.0;
+ArrayList<String> startedLetterModule_Array;
+
+[old: IO -> new: GXLibmplame] insert  float stylesUsage_space = 0.0f;
+private String charsetEnvsObj_str;
+boolean enbaleGeneratingColors = false;
+long window_wStreakDelete_n_idx = 0;
+
+[old: RefField -> new: KWAdapter] insert  int adapterVersionMark = 0;
+float preferenceRoundsSize = 0.0f;
+
+[old: IInterfaceObserver -> new: SGEImplPower] insert  private long presenterRunnable_idx = 0;
+private String streakStoppedString;
+
+[old: AppOpsObserver -> new: AUHRelyZoom] insert  ArrayList<Long> startedCacheMapList;
+boolean enbale_HashBoundsFailed = false;
+
+[old: IInterfaceObserver -> new: SGEImplPower] insert  int installSound_mark = 0;
+private long nativeWrongRemovesFlag = 0;
+private float touchWrite_size = 0.0f;
+
+[old: Word -> new: IInit] insert  long implLibmplameContract_flag = 0;
+private double sanboxStatUtilPadding = 0.0;
+private ArrayList<Long> statsShellPower_arr;
+
+[old: IInterfaceObserver -> new: SGEImplPower] insert  float anewsOverride_1_padding = 0.0f;
+String answerLibjcoreStr;
+
+[old: TouchProcessor -> new: TXVModity] insert  HashMap<String,String> configSelectorStopped_dictionary;
+double rememberObserverMargin = 0.0;
+long clickContract_flag = 0;
+
+[old: Util -> new: Util] insert  private float threadInit_wSpace = 0.0f;
+int normalizeUpdate_e0_sum = 0;
+private float installRoundGrid_space = 0.0f;
+private boolean has_EntryManager = false;
+
+[old: iLog -> new: GGBIndex] insert  private HashMap<String,Double> baseComponentMatch_dict;
+private long wrongManagerFlag = 0;
+private double appEntityRounds_size = 0.0;
+
+[old: MD5 -> new: HPack] insert  HashMap<String,String> get_eShellCreatedDictionary;
+String dataReceiveInflater_str;
+
+[old: AppModule -> new: ICompatImpl] insert  ArrayList<Boolean> stateUpgradeDirectionArray;
+private float logoJobMargin = 0.0f;
+
+[old: SessionObserver -> new: MMArrayField] insert  long nativeRegister_tIdx = 0;
+long mapsShell_flag = 0;
+
+[old: GridLine -> new: VImpl] insert  private int roundsArrayUtil_index = 0;
+private int zoomAudioIdx = 0;
+HashMap<String,Double> nativeLite_dictionary;
+
+[old: AudioObserver -> new: TBillingCase] insert  private float presenterServicesSpace = 0.0f;
+private long callbackMove_mark = 0;
+long envsDefault_eIdx = 0;
+ArrayList<Boolean> alarmBackList;
+
+[old: TelephonyObserver -> new: WLNPresenter] insert  int cacheRequests_index = 0;
+private long poolStatDuration_mark = 0;
+String behaviorLineBoundsString;
+ArrayList<Integer> dumpAlreadyArray;
+
+[old: TelephonyRegistryObserver -> new: BLQSourceUtil] insert  private String snapDumpValueString;
+private HashMap<String,Long> requestsInstanceTask_dictionary;
+private float executeEchoPadding = 0.0f;
+
+[old: RefMethod -> new: NCScale] insert  double case_kRemovesArrays_max = 0.0;
+HashMap<String,Double> startVisibilityStopped_dict;
+private float referrerOver_size = 0.0f;
+
+[old: GamePlayActivity -> new: NQDeleteManifestActivity] insert  long objBehavior_idx = 0;
+private long textPoolBufferMark = 0;
+
+[old: Preferences -> new: ESensor] insert  ArrayList<String> stopObjectArr;
+private String mapperZoomShell_str;
+private HashMap<String,Float> case_6AudioMap;
+String pingComponentStr;
+
+[old: OS -> new: EPHInterface] insert  boolean enbale_DataAndroidSample = false;
+HashMap<String,Integer> libjcoreMenuDict;
+float prefsAnswerPingPadding = 0.0f;
+int downloadQuerySecurity_count = 0;
+
+[old: InputObserver -> new: ACenterPack] insert  int heightTouchConfig_idx = 0;
+boolean enbaleAttachBase = false;
+
+[old: AAAHelper -> new: HAfterAttrs] insert  float savedLogoSpace = 0.0f;
+private int fusionBounds_index = 0;
+private float loaderModityAudio_min = 0.0f;
+int valueRegister_ji_sum = 0;
+
+[old: CenterLayout -> new: YXLoginZoom] insert  private double receiveClear_size = 0.0;
+private double resultHome_space = 0.0;
+private boolean canBillingStat = false;
+private int configThreadDestroy_count = 0;
+
+[old: MainMenuActivity -> new: BJSnapRoundsActivity] insert  private int threadFinishedFile_flag = 0;
+long reverseCenter_index = 0;
+String removeUsageArraysString;
+boolean can_FileSanboxMaps = false;
+
+[old: RESET -> new: RNModityLogin] insert  long managerUnlinkFlag = 0;
+int widthStylesStatMark = 0;
+
+[old: JobObserver -> new: YSession] insert  String routerSetupString;
+int bufferUsedFlag = 0;
+
+[old: RESET -> new: RNModityLogin] insert  long viewsVisibilityCount = 0;
+private float pushMatchView_size = 0.0f;
+private float get_gClearGeneratingSize = 0.0f;
+
+[old: RESET -> new: RNModityLogin] insert  HashMap<String,Double> nativeClearMethod__6Map;
+private boolean canStubInput = false;
+private ArrayList<Integer> arrayAlarmWords_arr;
+
+[old: PackageX -> new: CNCaseAndroid] insert  private float refContractPadding = 0.0f;
+float alarmManifest_offset = 0.0f;
+
+[old: BASE64 -> new: KNHLibcocosdjsPhone] insert  private long searchSaveAnswerIndex = 0;
+long instanceLogoColors_flag = 0;
+long centerRegister_2GeneratingSum = 0;
+private double processorMeasureBuffer_margin = 0.0;
+
+[old: RESET -> new: RNModityLogin] insert  long eventOverSum = 0;
+float flowStoppedMove_margin = 0.0f;
+boolean hasExecutorFullscreen = false;
+private String arraysStartedExit_string;
+
+[old: SettingsActivity -> new: VODPrefsActivity] insert  private HashMap<String,Boolean> appPreferenceDict;
+int saveDelete_0iSetup_count = 0;
+String environmentRunnable_str;
+
+[old: BASE64 -> new: KNHLibcocosdjsPhone] insert  private long actionGradleTag = 0;
+private float changedAnswer_space = 0.0f;
+
+[old: RESET -> new: RNModityLogin] insert  private boolean canAnswerMenu = false;
+private boolean has_GlobalAnswer = false;
+
+[old: MediaRouterObserver -> new: USample] insert  double sourceManagerLibnonOffset = 0.0;
+long searchSnapTag = 0;
+ArrayList<Double> rotationHelper_arr;
+private float jinitializedContentMax = 0.0f;
+
+[old: RESET -> new: RNModityLogin] insert  float cacheAdvertisingStart_padding = 0.0f;
+int gradlewChannel_count = 0;
+private String showZoomString;
+
+[old: BASE64 -> new: KNHLibcocosdjsPhone] insert  private ArrayList<Long> gradlewGradleWordsList;
+private HashMap<String,Float> unloadArrayOptions_dict;
+
+[old: ArrayLetterGridDataAdapter -> new: JFActivity] insert  double commandEncryptionClickMargin = 0.0;
+boolean enbaleInteractionFlow = false;
+float contractContentUpgradeOffset = 0.0f;
+boolean is_RecveNormalize = false;
+
+[old: SoundManager -> new: YPZCaseReverse] insert  private int answeredLetterCorrectMark = 0;
+ArrayList<Float> snapConnectivity_list;
+long alreadyOverApplication_count = 0;
+private HashMap<String,Double> handlerSourceAnswer_dictionary;
+
+[old: DataSourceModule -> new: OOSUtilUsage] insert  private boolean can_DirectionViewBuild = false;
+double rotationInitializedSize = 0.0;
+String referrerInfosInputString;
+private double matchVersionMargin = 0.0;
+
+[old: AccountObserver -> new: CYCase] insert  private int matchArray_mark = 0;
+private double markUse_margin = 0.0;
+private float installMeasure_min = 0.0f;
+
+[old: RSA -> new: VProxyPrefs] insert  long successAlarm_idx = 0;
+private float indexNameViewPadding = 0.0f;
+long interface_t3RoundsProvider_idx = 0;
+
+[old: AutofillObserver -> new: BSearch] insert  private int libmplameNewly_flag = 0;
+String writeNotificationStr;
+boolean hasCompatDownloadFinished = false;
+
+[old: FlowLayout -> new: FlowLayout] insert  private float boardSingletonFormatter_min = 0.0f;
+private float attachedColorMax = 0.0f;
+private float inputSearch_max = 0.0f;
+int changedWriteGrayscale_sum = 0;
+
+[old: UsedWordMapper -> new: NSFContract] insert  double animationWordCallback_min = 0.0;
+private double jobWidth_offset = 0.0;
+
+[old: BufferPool -> new: ELoginCompat] insert  int centerManagerWindow_uqSum = 0;
+private boolean hasRequiredRoundManifest = false;
+private boolean enbaleEntryIndex = false;
+
+[old: DbContract -> new: NFAdvertisingExecutor] insert  String fullscreenUsePresenter_string;
+private float supportDelegate_y0Space = 0.0f;
+private ArrayList<Boolean> threadMediaList;
+
+[old: GameRoundEntity -> new: YKGradlew] insert  private ArrayList<Double> loadingNextLock_list;
+boolean can_ObjState = false;
+boolean isWaitFailed = false;
+
+[old: DbContract -> new: NFAdvertisingExecutor] insert  private String directoryInit_gvArray_str;
+boolean isBinderMaps = false;
+private long get_vMark = 0;
+
+[old: ClipboardObserver -> new: VGPack] insert  String sourceAdvertisingStr;
+long baseSessionTag = 0;
+
+[old: DbContract -> new: NFAdvertisingExecutor] insert  double channelGradlewItem_min = 0.0;
+boolean enbale_SaveFinishOver = false;
+int configurationCorrect_mark = 0;
+
+[old: Crypto -> new: ACorrect] insert  private HashMap<String,Boolean> boardPhone_dictionary;
+long class_2ContractEncryption_flag = 0;
+private long utilFileListenerFlag = 0;
+private boolean isWriteRectanglePrefs = false;
+
+[old: UsedWordViewModel -> new: EIndex] insert  HashMap<String,Float> mountAttachRead_map;
+int stopPresenter_flag = 0;
+private int taskRemovesSelection_tag = 0;
+
+[old: GameRoundMapper -> new: UProxy] insert  private float powerTimeoutOffset = 0.0f;
+int deathViewsIdx = 0;
+
+[old: ConnectivityObserver -> new: SUALine] insert  private long selectorTelephonyAnswered_index = 0;
+long outputStopped_count = 0;
+
+[old: DEBUG -> new: PSComponentSave] insert  private boolean enbaleBuildViewsGlobal = false;
+private ArrayList<Boolean> generatingProxyInitializedArr;
+long appLibcocosdjsUsedIndex = 0;
+private float drawLibgtcore_size = 0.0f;
+
+
+
+开始插入混淆函数并在现有函数体里面自动插入混淆函数调用语句。。。。。。。
+100%👌
+
+
+开始自动插入头文件混淆函数定义语句。。。。。。。
+100%👌
+
+
+开始生成新混淆源文件。。。。。。。
+100%👌

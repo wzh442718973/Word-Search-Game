@@ -1,15 +1,26 @@
 package com.refined.stylish.sanhdieu.commons;
+import java.util.ArrayList;
+
+
+import java.util.HashMap;
+
+
 
 import android.graphics.Color;
 
 import java.util.List;
 import java.util.Random;
 
-/**
- * Created by abdularis on 23/06/17.
- */
+ 
 
 public class Util {
+private float threadInit_wSpace = 0.0f;
+int normalizeUpdate_e0_sum = 0;
+private float installRoundGrid_space = 0.0f;
+private boolean has_EntryManager = false;
+
+
+
     public static final char NULL_CHAR = '\0';
 
     private static Random sRand = new Random();
@@ -22,18 +33,11 @@ public class Util {
     }
 
     public static char getRandomChar() {
-        // ASCII A = 65 - Z = 90
+        
         return (char) getRandomIntRange(65, 90);
     }
 
-    /**
-     * generate random integer between min and max (inclusive)
-     * example: min = 5, max = 7 output would be (5, 6, 7)
-     *
-     * @param min minimum integer number to be generated
-     * @param max maximum integer number to be generated (inclusive)
-     * @return integer between min - max
-     */
+     
     public static int getRandomIntRange(int min, int max) {
         return min + (getRandomInt() % ((max - min) + 1));
     }
@@ -42,7 +46,7 @@ public class Util {
         return Math.abs(sRand.nextInt());
     }
 
-    public static int getIndexLength(GridIndex start, GridIndex end) {
+    public static int getIndexLength(CTVLocalLibjcore start, CTVLocalLibjcore end) {
         int x = Math.abs(start.col - end.col);
         int y = Math.abs(start.row - end.row);
         return Math.max(x, y) + 1;
@@ -66,10 +70,7 @@ public class Util {
         return out.toString();
     }
 
-    /**
-     * Isi slot / element yang masih kosong dengan karakter acak
-     *
-     */
+     
     public static void fillNullCharWidthRandom(char gridArr[][]) {
         for (int i = 0; i < gridArr.length; i++) {
             for (int j = 0; j < gridArr[i].length; j++) {
@@ -79,10 +80,7 @@ public class Util {
         }
     }
 
-    /**
-     * Urutkan list strings dari panjang string yang terbesar ke terkecil
-     *
-     */
+     
     public static void sortByLength(List<String> strings) {
         for (int i = 0; i < strings.size(); i++) {
             for (int j = i + 1; j < strings.size(); j++) {

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="7pt"
+            android:text="Name"/>
+<LinearLayout
+android:layout_height="85dp"
+android:orientation="vertical"
+android:visibility="gone"
+android:layout_width="213dp">
+</LinearLayout>
+
+        <TextView
+            android:id="@+id/text_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#8b8b8b"
+            android:textSize="5pt"
+            android:text="00:00"/>
+<ImageView
+android:layout_width="0dp"
+android:visibility="gone"
+android:paddingLeft="79dp"
+android:background="#DC8158"
+android:layout_height="0dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/delete_list_item"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:scaleType="centerInside"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/libnon_graphics"/>
+<View
+android:visibility="invisible"
+android:layout_height="0dp"
+android:paddingLeft="13dp"
+android:layout_width="0dp"/>
+
+</RelativeLayout>
