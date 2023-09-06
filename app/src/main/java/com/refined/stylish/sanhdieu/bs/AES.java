@@ -30,12 +30,12 @@ public final class AES {
     }
 
     public static String KeyToBase64(SecretKey key) {
-        return BASE64.encode(key.getEncoded());
+        return BASE64.encodeToString(key.getEncoded(), BASE64.NO_WRAP);
     }
 
     //将Base64编码后的AES秘钥转换成SecretKey对象
     public static SecretKey genKeyAES(String base64Key) throws Exception {
-        return new SecretKeySpec(fullKeys(BASE64.decode(base64Key)), AES);
+        return new SecretKeySpec(fullKeys(BASE64.decode(base64Key, BASE64.NO_WRAP)), AES);
     }
 
     public static SecretKey genKeyAES(byte[] keys) throws Exception {
@@ -64,26 +64,16 @@ public final class AES {
         return fullKeys;
     }
 
-    //加密
+    //ENCRYPT_MODE
     public static byte[] encode(byte[] source, SecretKey key) throws Exception {
-        return encode(source, key, AES);
-    }
-
-    //解密
-    public static byte[] decode(byte[] source, SecretKey key) throws Exception {
-        return decode(source, key, AES);
-    }
-
-    //加密
-    public static byte[] encode(byte[] source, SecretKey key, String transformation) throws Exception {
-        Cipher cipher = Cipher.getInstance(transformation);
+        Cipher cipher = Cipher.getInstance(AES);
         cipher.init(Cipher.ENCRYPT_MODE, key);
         return cipher.doFinal(source);
     }
 
-    //解密
-    public static byte[] decode(byte[] source, SecretKey key, String transformation) throws Exception {
-        Cipher cipher = Cipher.getInstance(transformation);
+    //DECRYPT_MODE
+    public static byte[] decode(byte[] source, SecretKey key) throws Exception {
+        Cipher cipher = Cipher.getInstance(AES);
         cipher.init(Cipher.DECRYPT_MODE, key);
         return cipher.doFinal(source);
     }

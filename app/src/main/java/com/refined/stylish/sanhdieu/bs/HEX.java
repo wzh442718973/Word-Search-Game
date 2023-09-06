@@ -13,27 +13,34 @@ public final class HEX {
      */
 
     private static final byte[] sHEX = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
-    private static final byte[] rHEX = {
-            -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
-            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, -1, -1, -1, -1, -1, -1,
-            -1, 10, 11, 12, 13, 14, 15, -1, -1, -1, -1, -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
-            -1, 10, 11, 12, 13, 14, 15, -1, -1, -1, -1, -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1};
+    private static final int[] rHEX = {0xff, 0xff, 0xff, 0, 9, 0xff, 9, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff};
 
+    public static byte[] encode(byte[] src) {
+        return encode(src, 0, src.length);
+    }
+
+    public static byte[] decode(byte[] src) {
+        return decode(src, 0, src.length);
+    }
+
+    public static String encodeToString(byte[] src){
+        return new String(encode(src));
+    }
+
+    public static String decodeToString(byte[] src){
+        return new String(decode(src));
+    }
 
     public static byte[] encode(byte[] src, int begin, int end) {
         if (src == null || begin >= end) {
             return null;
         }
-        byte[] out = new byte[(end - begin) * 2];
+        byte[] out = new byte[(end - begin) << 1];
 
-        for (int k = 0, i = begin; i < end; ++i, k += 2) {
-            final int v = (0xff & src[i]);
-            out[k] = sHEX[(v >> 4) & 0x0f];
-            out[k + 1] = sHEX[v & 0x0f];
+        for (int k = 0; begin < end; begin++) {
+            final int v = (0xff & src[begin]);
+            out[k++] = sHEX[(v & 0xf0) >> 4];
+            out[k++] = sHEX[(v & 0x0f) >> 0];
         }
         return out;
     }
@@ -54,13 +61,13 @@ public final class HEX {
             l = 0xff & hexs[begin++];
         }
         do {
-            h = (h & 0x80) + rHEX[h & 0x7F];
-            l = (l & 0x80) + rHEX[l & 0x7F];
-            if (h < 0 || l < 0) {
+            h = rHEX[(h & 0xf0) >> 4] + (h & 0x0f);
+            l = rHEX[(l & 0xf0) >> 4] + (l & 0x0f);
+            if (h > 15 || l > 15) {
                 throw new NumberFormatException("hex in invalid");
             }
 
-            out[k++] = (byte) ((h << 4) | l);
+            out[k++] = (byte) (((h & 0x0f) << 4) | (l & 0x0f));
             if (begin < end) {
                 h = 0xff & hexs[begin++];
                 l = 0xff & hexs[begin++];
@@ -69,20 +76,6 @@ public final class HEX {
             }
         } while (true);
         return out;
-    }
-
-    public static byte[] encode(String src) {
-        byte[] data = src.getBytes();
-        return encode(data, 0, data.length);
-    }
-
-    public static byte[] decode(String hexs) {
-        hexs = hexs.trim().toLowerCase();
-        if (hexs.startsWith("0x")) {
-            hexs = hexs.substring(2).trim();
-        }
-        byte[] data = hexs.getBytes();
-        return decode(data, 0, data.length);
     }
 
     public static String toHex(byte v) {
@@ -133,16 +126,7 @@ public final class HEX {
         return new String(encode(bs, 0, bs.length));
     }
 
-    public static String toHex(String hexs) {
-        hexs = hexs.trim().toLowerCase();
-        if (hexs.startsWith("0x")) {
-            hexs = hexs.substring(2).trim();
-        }
-        return toHex(hexs.getBytes());
-    }
-
-
-    public static int toInt(byte[] hexs) {
+    public static int intOf(byte[] hexs) {
         byte[] data = decode(hexs, 0, hexs.length);
         int k = Math.max(0, data.length - 4);
 
@@ -153,7 +137,7 @@ public final class HEX {
         return val;
     }
 
-    public static long toLong(byte[] hexs) {
+    public static long longOf(byte[] hexs) {
         byte[] data = decode(hexs, 0, hexs.length);
         int k = Math.max(0, data.length - 8);
 
@@ -164,44 +148,14 @@ public final class HEX {
         return val;
     }
 
-    public static float toFloat(byte[] hexs) {
-        int val = toInt(hexs);
+    public static float floatOf(byte[] hexs) {
+        int val = intOf(hexs);
         return Integer.valueOf(val).floatValue();
     }
 
-    public static double toDouble(byte[] hexs) {
-        long val = toLong(hexs);
+    public static double doubleOf(byte[] hexs) {
+        long val = longOf(hexs);
         return Long.valueOf(val).doubleValue();
-    }
-
-    public static byte[] toBytes(String src) {
-        byte[] data = src.getBytes();
-        return decode(data, 0, data.length);
-    }
-
-//
-//    public static boolean IsNum(String num) {
-//        for (int i = 0; i < num.length(); ++i) {
-//            if (_HexToInt_(num.charAt(i)) >= 10) {
-//                return false;
-//            }
-//        }
-//        return true;
-//    }
-
-    public static boolean isHex(String hexs) {
-        hexs = hexs.trim().toLowerCase();
-        if (hexs.startsWith("0x")) {
-            hexs = hexs.substring(2).trim();
-        }
-        for (int i = 0; i < hexs.length(); ++i) {
-            int v = hexs.charAt(i);
-            v = (v & 0x80) + rHEX[v & 0x7F];
-            if (v < 0) {
-                return false;
-            }
-        }
-        return true;
     }
 
 }

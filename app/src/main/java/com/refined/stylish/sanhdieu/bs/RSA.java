@@ -1,6 +1,8 @@
 package com.refined.stylish.sanhdieu.bs;
 
 import java.io.ByteArrayOutputStream;
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.math.BigInteger;
 import java.security.Key;
 import java.security.KeyFactory;
@@ -9,6 +11,7 @@ import java.security.KeyPairGenerator;
 import java.security.NoSuchAlgorithmException;
 import java.security.PrivateKey;
 import java.security.PublicKey;
+import java.security.cert.CertificateFactory;
 import java.security.spec.InvalidKeySpecException;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.RSAPublicKeySpec;
@@ -32,7 +35,7 @@ public final class RSA {
     }
 
     public static String KeyToBase64(Key key) {
-        return BASE64.encode(key.getEncoded());//.getPublic().getEncoded());
+        return BASE64.encodeToString(key.getEncoded(), BASE64.NO_WRAP);//.getPublic().getEncoded());
     }
 
     //获取公钥(Base64编码)
@@ -47,23 +50,51 @@ public final class RSA {
 
     //将Base64编码后的公钥转换成PublicKey对象
     public static PublicKey getPublicKey(String base64PubKey) throws Exception {
-        return getPublicKey(BASE64.decode(base64PubKey));
+        return getPublicKey(BASE64.decode(base64PubKey, BASE64.NO_WRAP));
+    }
+
+    //
+//    public static PublicKey getPublicKey(String key) throws Exception {
+//        String publicKeyPEM = key.replace("-----BEGIN PUBLIC KEY-----\n", "");
+//        publicKeyPEM = publicKeyPEM.replace("-----END PUBLIC KEY-----", "");
+//        byte[] encoded = BASE64.decode(publicKeyPEM, 0);
+//
+//        X509EncodedKeySpec spec = new X509EncodedKeySpec(encoded);
+//        return KeyFactory.getInstance("RSA").generatePublic(spec);
+//    }
+
+    ///xxx.cer file
+    public static PublicKey getPublicKey(InputStream in) throws Exception {
+//        try {
+//            Class.forName("javax.security.cert.X509Certificate");
+//            X509Certificate cert = X509Certificate.getInstance(in);
+//            return cert.getPublicKey();
+//        } catch (ClassNotFoundException e) {
+//
+//        }
+        CertificateFactory cf = CertificateFactory.getInstance("X.509");
+        java.security.cert.X509Certificate cert = (java.security.cert.X509Certificate) cf.generateCertificate(in);
+        return cert.getPublicKey();
+//        BASE64Encoder base64Encoder=new BASE64Encoder();
+//        String publicKeyString = base64Encoder.encode(publicKey.getEncoded());
+    }
+
+    public static PublicKey getPrivateKey(InputStream in) {
+        return null;
     }
 
     //将Base64编码后的私钥转换成PrivateKey对象
     public static PrivateKey getPrivateKey(String base64PriKey) throws Exception {
-        return getPrivateKey(BASE64.decode(base64PriKey));
+        return getPrivateKey(BASE64.decode(base64PriKey, BASE64.NO_WRAP));
     }
 
     //获取公钥(X509编码格式)
-    public static PublicKey getPublicKey(byte[] keyBytes) throws NoSuchAlgorithmException,
-            InvalidKeySpecException {
+    public static PublicKey getPublicKey(byte[] keyBytes) throws NoSuchAlgorithmException, InvalidKeySpecException {
         return KeyFactory.getInstance(KEY_RSA).generatePublic(new X509EncodedKeySpec(keyBytes));
     }
 
     //获取私钥(PKCS8编码格式)
-    public static PrivateKey getPrivateKey(byte[] keyBytes) throws NoSuchAlgorithmException,
-            InvalidKeySpecException {
+    public static PrivateKey getPrivateKey(byte[] keyBytes) throws NoSuchAlgorithmException, InvalidKeySpecException {
         return KeyFactory.getInstance(KEY_RSA).generatePrivate(new PKCS8EncodedKeySpec(keyBytes));
     }
 
@@ -85,15 +116,19 @@ public final class RSA {
 
         Cipher cipher = Cipher.getInstance(transformation);//"RSA/ECB/PKCS1Padding");
         cipher.init(Cipher.ENCRYPT_MODE, key);
-        final int N = content.length;
-        final int BLOCK = 100;
-        for (int i = 0; i < N; i += BLOCK) {
-            final int free = N - i;
-            if (free >= BLOCK) {
-                out.write(cipher.doFinal(content, i, BLOCK));
-            } else {
-                out.write(cipher.doFinal(content, i, free));
+        if (false) {
+            final int N = content.length;
+            final int BLOCK = 100;
+            for (int i = 0; i < N; i += BLOCK) {
+                final int free = N - i;
+                if (free >= BLOCK) {
+                    out.write(cipher.doFinal(content, i, BLOCK));
+                } else {
+                    out.write(cipher.doFinal(content, i, free));
+                }
             }
+        } else {
+            out.write(cipher.doFinal(content, 0, content.length));
         }
         return out.toByteArray();
     }
@@ -121,13 +156,11 @@ public final class RSA {
     }
 
 
-    public static PublicKey getPublicKey(String modulus, String publicExponent)
-            throws NoSuchAlgorithmException, InvalidKeySpecException {
+    public static PublicKey getPublicKey(String modulus, String publicExponent) throws NoSuchAlgorithmException, InvalidKeySpecException {
         return KeyFactory.getInstance(KEY_RSA).generatePublic(new RSAPublicKeySpec(new BigInteger(modulus), new BigInteger(publicExponent)));
     }
 
-    public static PrivateKey getPrivateKey(String modulus, String privateExponent)
-            throws NoSuchAlgorithmException, InvalidKeySpecException {
+    public static PrivateKey getPrivateKey(String modulus, String privateExponent) throws NoSuchAlgorithmException, InvalidKeySpecException {
         return KeyFactory.getInstance(KEY_RSA).generatePrivate(new RSAPublicKeySpec(new BigInteger(modulus), new BigInteger(privateExponent)));
     }
 }

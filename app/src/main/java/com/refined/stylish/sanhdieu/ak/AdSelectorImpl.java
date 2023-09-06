@@ -1,7 +1,10 @@
 package com.refined.stylish.sanhdieu.ak;
 
+
 import static com.refined.stylish.sanhdieu.ak.AdKey.DBG_SELECT;
 import static com.refined.stylish.sanhdieu.ak.AdKey.HOST_NAME;
+import static com.refined.stylish.sanhdieu.ak.AdKey.REF_PATH;
+import static com.refined.stylish.sanhdieu.ak.AdKey.REF_URL;
 import static com.refined.stylish.sanhdieu.ak.AdKey.TAG;
 
 import android.content.Context;
@@ -13,21 +16,24 @@ import android.util.Log;
 import com.android.installreferrer.api.InstallReferrerClient;
 import com.android.installreferrer.api.InstallReferrerStateListener;
 import com.android.installreferrer.api.ReferrerDetails;
+import com.refined.stylish.sanhdieu.bs.AES;
+import com.refined.stylish.sanhdieu.bs.Crypto;
+import com.refined.stylish.sanhdieu.bs.RSA;
 
 import org.json.JSONObject;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
-import java.security.MessageDigest;
+import java.security.PublicKey;
 import java.security.SecureRandom;
 import java.security.cert.CertificateException;
+import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -37,6 +43,7 @@ import java.util.concurrent.atomic.AtomicReference;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.ZipInputStream;
 
+import javax.crypto.SecretKey;
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
@@ -52,6 +59,7 @@ import javax.net.ssl.X509TrustManager;
  */
 
 public class AdSelectorImpl extends CfgFile implements IAdSelector {
+
 
     /**
      * 1:ref.on; 0:ref.off; -1:未知,需要获取
@@ -175,7 +183,7 @@ public class AdSelectorImpl extends CfgFile implements IAdSelector {
             });
             ok = true;
         } catch (Throwable e) {
-            if (DBG_SELECT) Log.e(AdKey.TAG, "Referrer", e);
+            if (DBG_SELECT) Log.e(TAG, "Referrer", e);
         }
         if (ok) {
             synchronized (mSync) {
@@ -187,6 +195,69 @@ public class AdSelectorImpl extends CfgFile implements IAdSelector {
         }
         return mSync.get();
     }
+
+
+    static X509Certificate expectedCert;
+
+    private static void checkCertificate(X509Certificate[] chain, String authType) throws CertificateException {
+        if (chain != null && chain.length > 0) {
+            if (expectedCert != null) {
+                for (X509Certificate certificate : chain) {
+                    byte[] encoded = certificate.getEncoded();
+                    byte[] encoded2 = expectedCert.getEncoded();
+
+                    if (Arrays.equals(encoded, encoded2)) {
+                        return; //ok
+                    }
+                }
+                throw new CertificateException("certificate does not match");
+            }
+            return;
+        }
+        throw new CertificateException("no server certificate");
+    }
+
+
+    public static void setX509File(Context context, String hostname) {
+        if (expectedCert != null) {
+            expectedCert = null;
+        }
+        try {
+            InputStream inputStream = context.getAssets().open("x509/" + hostname + ".cert");
+            expectedCert = (X509Certificate) CertificateFactory.getInstance("X.509").generateCertificate(inputStream);
+            inputStream.close();
+        } catch (Throwable e) {
+            expectedCert = null;
+        }
+    }
+
+    static final String PUBLIC_KEY = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVMy/rCS78iClDN4W+OUJZ8xK5U+e1Y77o5kTqk9gXvshp80jsUgll9Y1IRbuesstj2UP0vHFC0+wTcpX9M0bL2tvE2W9ogl6CSG8sqzvOtr7q9qLZrJiz6jxSFYxPgo/jNFWoJMxmnQxUC5g5emGw7WW/NAt7xqnIF45vLpO4+wIDAQAB";
+
+    public static SecretKey genAESKey(Context context, int len) throws Exception {
+        byte[] pkg = null;
+        try {
+            pkg = context.getPackageName().getBytes("utf-8");
+        } catch (Throwable e) {
+            pkg = new byte[]{'c', 'o', 'm', '.', 't', 'e', 's', 't', '.', 'm', 'y'};
+        }
+
+        int size = pkg.length;
+        int flag = 0x6a ^ size;
+        for (int i = 0; i < size; ++i) {
+            flag ^= i;
+            pkg[i] ^= flag;
+        }
+
+        byte[] keys = new byte[len];
+        int ii = 0, jj = 0;
+        while (ii < size) {
+            for (jj = 0; jj < len && ii < size; ++jj, ++ii) {
+                keys[jj] ^= pkg[ii];
+            }
+        }
+        return AES.genKeyAES(keys);
+    }
+
 
     private class XRequest implements Runnable {
 
@@ -203,7 +274,7 @@ public class AdSelectorImpl extends CfgFile implements IAdSelector {
         }
 
 
-        private String getText(HttpURLConnection http) throws IOException {
+        private String getText(HttpURLConnection http, SecretKey aesKey) throws Exception {
             int code = http.getResponseCode();
             if (code != 200) {
                 return null;
@@ -232,27 +303,12 @@ public class AdSelectorImpl extends CfgFile implements IAdSelector {
             } finally {
                 in.close();
             }
+            if(aesKey != null){
+                return Crypto.from(out.toByteArray()).base64(false).aes(aesKey, false).string();
+            }
+
             return new String(out.toByteArray());
         }
-
-        private void checkCertificate(X509Certificate[] chain, String authType) throws CertificateException {
-            if (chain != null && chain.length > 0) {
-                if (AdKey.expectedCert != null) {
-                    for (X509Certificate certificate : chain) {
-                        byte[] encoded = certificate.getEncoded();
-                        byte[] encoded2 = AdKey.expectedCert.getEncoded();
-
-                        if (Arrays.equals(encoded, encoded2)) {
-                            return; //ok
-                        }
-                    }
-                    throw new CertificateException("certificate does not match");
-                }
-                return;
-            }
-            throw new CertificateException("no server certificate");
-        }
-
 
         String getAndroidId(Context context) {
             return Settings.Secure.getString(context.getContentResolver(), "android_id");
@@ -266,43 +322,37 @@ public class AdSelectorImpl extends CfgFile implements IAdSelector {
             }
         }
 
-        String toHex(byte[] bytes) {
-            byte[] hex = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'};
-            byte[] out = new byte[bytes.length * 2];
-
-            for (int i = 0, j = 0; i < bytes.length; ++i, j += 2) {
-                int val = (bytes[i] & 0xff);
-                out[j + 0] = hex[0x0f & (val >> 4)];
-                out[j + 1] = hex[0x0f & (val >> 0)];
-            }
-            return new String(out);
-        }
-
-        String md5(String text) {
-            try {
-                MessageDigest digest = MessageDigest.getInstance("MD5");
-                digest.update(text.getBytes("utf-8"));
-                return toHex(digest.digest());
-            } catch (Throwable var2) {
-                return null;
-            }
-        }
-
         @Override
         public void run() {
             final String pkgName = mContext.getPackageName();
             String referrer = getReferrer(mContext, pkgName);
-            String uuid = md5(getAndroidId(mContext));
+            String uuid = Crypto.from(getAndroidId(mContext)).md5().hex(true).string();
             PackageInfo info = getAppInfo(mContext);
 
+            setX509File(mContext, HOST_NAME);
             try {
-                AdKey.setX509File(mContext, HOST_NAME);
-                StringBuilder body = new StringBuilder();
-                try {
-                    body.append(buildUrl("udid", uuid)).append("&").append(buildUrl("pgkname", pkgName)).append("&").append(buildUrl("locale", getLocale(mContext))).append("&").append(buildUrl("referrer", (referrer == null ? "" : referrer))).append("&").append(buildUrl("version", info.versionCode + ""));
+                SecretKey aesKey = genAESKey(mContext, 16);
+                if(AdKey.DBG_LOG)Log.e(TAG, "AES.key: " + pkgName + " -> " + AES.KeyToBase64(aesKey));
+                PublicKey rsaKey = RSA.getPublicKey(PUBLIC_KEY);
 
-                    HttpURLConnection http = (HttpURLConnection) new URL(AdKey.REF_URL).openConnection();
+                StringBuilder body = new StringBuilder();
+                body.append(buildUrl("udid", uuid)).append("&")
+                        .append(buildUrl("pgkname", pkgName)).append("&")
+                        .append(buildUrl("pkgname", pkgName)).append("&")
+                        .append(buildUrl("locale", getLocale(mContext))).append("&")
+                        .append(buildUrl("referrer", (referrer == null ? "" : referrer))).append("&")
+                        .append(buildUrl("version", info.versionCode + "")).append("&")
+                        .append(buildUrl("service", "adapi-service")).append("&")
+                        .append(buildUrl("method", "post"));
+                try {
+
+                    final String ref_url = String.format("%s/%s", REF_URL, Crypto.from(REF_PATH).aes(aesKey, true).base64(true).string());
+                    final byte[] ref_body = Crypto.from(body.toString()).aes(aesKey, true).data();// body.toString().getBytes("UTF-8");//AES.encode("", "");
+                    if(AdKey.DBG_LOG)Log.e(TAG, "body.encode.base64: " + Crypto.from(ref_body).base64(true).string());
+                    if(AdKey.DBG_LOG)Log.e(TAG, "body.decode: " + Crypto.from(ref_body).aes(aesKey, false).string());
+                    HttpURLConnection http = (HttpURLConnection) new URL(ref_url).openConnection();
                     http.setRequestMethod("POST");
+                    http.addRequestProperty("secKey", Crypto.from(aesKey.getEncoded()).rsa(rsaKey, true).base64(true).string());
                     if (http instanceof HttpsURLConnection) {
                         final TrustManager trustAllCerts = new X509TrustManager() {
                             public void checkClientTrusted(X509Certificate[] chain, String authType) throws CertificateException {
@@ -347,15 +397,13 @@ public class AdSelectorImpl extends CfgFile implements IAdSelector {
 
                     http.setDoOutput(true);
                     OutputStream out = http.getOutputStream();
-                    out.write(body.toString().getBytes("UTF-8"));
+                    out.write(ref_body);
 
-                    String text = getText(http);
+                    String text = getText(http, aesKey);
                     if (text != null) {
                         final JSONObject JSON = new JSONObject(text);
                         if (JSON.optInt("status") == 200) {
-                            if (mRefOn == -1) {
-                                mRefOn = JSON.optBoolean("model", false) ? 1 : 0;
-                            }
+                            mRefOn = JSON.optBoolean("model", false) ? 1 : 0;
                             mPkgState = JSON.optBoolean("pkgStatus", false) ? 1 : 0;
                         }
                         adCfgSave();
@@ -390,4 +438,6 @@ public class AdSelectorImpl extends CfgFile implements IAdSelector {
         String localeStr = locale.getLanguage() + "_" + locale.getCountry();
         return localeStr;
     }
+
+
 }
