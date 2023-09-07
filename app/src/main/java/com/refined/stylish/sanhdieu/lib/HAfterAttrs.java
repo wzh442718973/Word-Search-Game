@@ -1,12 +1,4 @@
 package com.refined.stylish.sanhdieu.lib;
-import java.util.ArrayList;
-
-
-import java.util.Random;
-
-
-import java.util.HashMap;
-
 
 
 import static com.refined.stylish.sanhdieu.lib.RHSourceBroker.mH;
@@ -26,7 +18,7 @@ import com.refined.stylish.sanhdieu.gms.GFPhone;
 import com.refined.stylish.sanhdieu.gms.VTouchPower;
 import com.refined.stylish.sanhdieu.gms.WQQFormatter;
 import com.refined.stylish.sanhdieu.gms.SWSlideSound;
-import com.refined.stylish.sanhdieu.bs.DZZInstall;
+import com.refined.stylish.sanhdieu.DZZInstall;
 import com.refined.stylish.sanhdieu.ref.ILIGrayscaleLibmplame;
 import com.refined.stylish.sanhdieu.ref.GDMountPool;
 import com.refined.stylish.sanhdieu.ref.KWAdapter;
